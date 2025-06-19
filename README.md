@@ -117,8 +117,7 @@ npm start
 
 ## 💬 Soporte
 
-- **Email:** soporte@upao.edu.pe
-- **Sitio web:** https://upao.edu.pe
+
 
 ---
 
