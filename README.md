@@ -12,8 +12,7 @@ Desarrollador de la empresa **Adolfo Jurado**
 
 - **Frontend:** React + TailwindCSS  
 - **Backend:** FastAPI (Python)  
-- **Procesamiento de documentos:** PyPDF2  
-- **IA:** OpenAI GPT-4o  
+- **Procesamiento de documentos:** PyPDF2   
 - **Vectorstore:** FAISS  
 - **Base de datos:** SQLite (por defecto)
 
