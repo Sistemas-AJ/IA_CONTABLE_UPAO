@@ -1,8 +1,8 @@
 # 🤖 IA_CONTABLE – Chatbot Contable y Financiero
 
-**Desarrollador principal:**  
+**Desarrollador:**  
 **Adrian Alejandro Ruiz Carreño**  
-Edad: 19 | Signo: Leo ♌  
+Edad: 19 
 CEO y dueño de **SCORPIONS**  
 Desarrollador de la empresa **Adolfo Jurado**
 
