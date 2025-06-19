@@ -154,3 +154,5 @@ IA_CONTABLE/
 
 **¿Listo para automatizar tu contabilidad?**
 # IA_CONTABLE_UPAO
+# IA_CONTABLE_UPAO
+# IA_CONTABLE_UPAO
