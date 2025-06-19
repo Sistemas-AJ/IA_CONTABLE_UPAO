@@ -116,35 +116,6 @@ npm start
 
 ---
 
-## 📄 Estructura del proyecto
-
-```
-IA_CONTABLE/
-│
-├── backend/
-│   ├── app/
-│   │   ├── services/
-│   │   ├── core/
-│   │   ├── routes/
-│   │   ├── analyzers/
-│   │   ├── ...
-│   ├── data/
-│   ├── uploads/
-│   ├── vector_store/
-│   ├── requirements.txt
-│   └── main.py
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── tailwind.config.js
-│
-└── README.md
-```
-
----
-
 ## 💬 Soporte
 
 - **Email:** soporte@upao.edu.pe
