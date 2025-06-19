@@ -1,0 +1,119 @@
+/* Estilos específicos para la ventana de chat */
+
+/* Estilizar scrollbar para Chrome/Edge/Safari */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+/* Estilos para bloques de código en markdown */
+pre {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+/* Estilos para tablas en markdown */
+.markdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.markdown-table th,
+.markdown-table td {
+  border: 1px solid #e2e8f0;
+  padding: 8px 12px;
+}
+
+.markdown-table th {
+  background-color: #f8fafc;
+}
+
+/* Animación para nuevos mensajes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.new-message {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* ...otros estilos... */
+
+.prose table {
+  display: table;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.prose .table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .prose table {
+    display: block;
+    width: 100%;
+    min-width: 0; /* Cambia esto de 400px a 0 */
+    overflow-x: auto;
+  }
+}
+
+table {
+  width: 100%;
+  min-width: 0;
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+  margin-bottom: 1rem;
+}
+
+th {
+  background-color: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+}

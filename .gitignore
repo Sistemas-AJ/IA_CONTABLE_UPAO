@@ -1,0 +1,14 @@
+# Python
+**/__pycache__/
+backend/app/*.db
+backend/app/vector_store/
+backend/app/uploads/
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.DS_Store
