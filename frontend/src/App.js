@@ -37,7 +37,7 @@ function App() {
 
   const loadUserContext = async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/user-context/${sessionId}`);
+      const res = await fetch(`${API_BASE}/api/user_context/${sessionId}`);
       if (res.ok) {
         const data = await res.json();
         setUserContext(data.context || {});
