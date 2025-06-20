@@ -10,6 +10,7 @@ import InputBox from './components/InputBox';
 import UploadSection from './components/UploadSection';
 import LoadingProgress from './components/LoadingProgress';
 
+const API_BASE = "http://104.243.40.27:8000"; // Cambia el puerto si tu backend usa otro
 
 function App() {
   const [sessionId] = useState(uuidv4());
@@ -36,7 +37,7 @@ function App() {
 
   const loadUserContext = async () => {
     try {
-      const res = await fetch(`/api/user-context/${sessionId}`);
+      const res = await fetch(`${API_BASE}/api/user-context/${sessionId}`);
       if (res.ok) {
         const data = await res.json();
         setUserContext(data.context || {});
@@ -140,7 +141,7 @@ function App() {
   // Función principal para enviar mensajes
   const sendMessage = async () => {
     if (!userMessage.trim()) return;
-
+no 
     // Agregar mensaje del usuario
     const newUserMessage = { role: 'user', content: userMessage };
     setMessages(m => [...m, newUserMessage]);
