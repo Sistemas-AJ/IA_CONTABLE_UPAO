@@ -64,10 +64,26 @@ class QueryDetector:
             ),
             
             "asiento_contable": QueryPattern(
-                keywords=["asiento", "contabilizar", "registrar", "préstamo", "prestamo", "debe", "haber",
-                         "cuenta", "pcge", "contable", "registro", "cuota", "pago", "interés", "financiero",
-                         "libro diario", "partida doble", "débito", "crédito"],
-                strong_indicators=["asiento contable", "préstamo", "registra", "debe y haber", "cuota"],
+                keywords=[
+                    "asiento", "contabilizar", "registrar", "préstamo", "prestamo", "debe", "haber",
+                    "cuenta", "pcge", "contable", "registro", "cuota", "pago", "interés", "financiero",
+                    "libro diario", "partida doble", "débito", "crédito",
+                    "ingreso de mercadería", "ingreso de mercaderías", "ingreso de inventario", "entrada de mercadería", "entrada de mercaderías",
+                    "compra", "venta", "factura", "nota de crédito", "nota de débito", "recibo", "boleta",
+                    "gasto", "ingreso", "servicio", "servicios", "honorario", "honorarios", "proveedor", "cliente",
+                    "banco", "transferencia", "depósito", "retiro", "cheque", "letra", "pagaré", "pagare",
+                    "activo fijo", "depreciación", "provisión", "provisiones", "amortización", "capital", "aporte", "retiro de socios",
+                    "planilla", "remuneración", "sueldo", "salario", "cts", "gratificación", "vacaciones", "essalud", "afp", "onp",
+                    "impuesto", "igv", "renta", "detracción", "percepción", "retención", "tributo", "sunat",
+                    "dividendos", "utilidad", "pérdida", "resultado", "ajuste", "reclasificación", "saldo inicial", "saldo final"
+                ],
+                strong_indicators=[
+                    "asiento contable", "préstamo", "registra", "debe y haber", "cuota",
+                    "ingreso de mercadería", "ingreso de mercaderías", "asiento de compra", "asiento de venta",
+                    "asiento de pago", "asiento de cobro", "asiento de honorarios", "asiento de servicios",
+                    "asiento de depreciación", "asiento de provisión", "asiento de planilla", "asiento de impuesto",
+                    "asiento de transferencia", "asiento bancario", "asiento de ajuste", "asiento de apertura", "asiento de cierre"
+                ],
                 category="accounting",
                 priority=8,
                 min_keyword_count=1
@@ -99,6 +115,13 @@ class QueryDetector:
                 strong_indicators=["por qué", "cómo", "cuándo", "dónde", "quién"],
                 category="general_knowledge",
                 priority=5,  # BAJA PRIORIDAD
+                min_keyword_count=1
+            ),
+            "regulatory": QueryPattern(
+                keywords=["pcge", "plan contable", "niif", "nic", "norma", "resolución", "elementos del pcge", "estructura del pcge", "principio de materialidad", "principio de importancia relativa"],
+                strong_indicators=["pcge", "plan contable", "niif", "nic", "principio de materialidad"],
+                category="regulatory",
+                priority=12,
                 min_keyword_count=1
             )
         }
@@ -152,7 +175,7 @@ class QueryDetector:
         if self._contains_financial_operations(query_lower):
             return "asiento_contable", 0.7, {"category": "accounting", "fallback": True}
         
-        return "general", 0.5, {"category": "general", "fallback": True}
+        return "ai", 0.5, {}  # <-- Fallback a IA general
     
     def _is_simple_math_question(self, query: str) -> bool:
         """Detecta preguntas de matemática simple"""

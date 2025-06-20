@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { PaperClipIcon, UserIcon } from '@heroicons/react/24/outline';
+import { BlockMath, InlineMath } from 'react-katex';
 
 // Importar componentes
 import Header from './components/Header';
@@ -8,6 +9,7 @@ import ChatWindow from './components/ChatWindow';
 import InputBox from './components/InputBox';
 import UploadSection from './components/UploadSection';
 import LoadingProgress from './components/LoadingProgress';
+
 
 function App() {
   const [sessionId] = useState(uuidv4());
@@ -138,17 +140,19 @@ function App() {
   // Función principal para enviar mensajes
   const sendMessage = async () => {
     if (!userMessage.trim()) return;
-    
+
     // Agregar mensaje del usuario
     const newUserMessage = { role: 'user', content: userMessage };
     setMessages(m => [...m, newUserMessage]);
-    
-    // Iniciar loading con progreso
+
+    // Tomar los últimos 5 mensajes (sin incluir el que se está enviando)
+    const lastMessages = [...messages, newUserMessage].slice(-5);
+
     setLoading(true);
     setLoadingProgress(0);
     setLoadingStage('analyzing');
     simulateProgress();
-    
+
     try {
       const res = await fetch('/api/chat/message', {
         method: 'POST',
@@ -156,7 +160,8 @@ function App() {
         body: JSON.stringify({
           message: userMessage,
           session_id: sessionId,
-          user_context: userContext
+          user_context: userContext,
+          history: lastMessages // <-- Nuevo campo
         })
       });
       

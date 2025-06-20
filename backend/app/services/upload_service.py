@@ -224,89 +224,44 @@ class UploadService:
             raise Exception(f"Error extrayendo DOCX: {str(e)}")
     
     async def _extract_excel_data(self, file_path: Path) -> Dict:
-        """Extrae datos de archivo Excel"""
+        import pandas as pd
         try:
-            # Leer todas las hojas
             excel_data = pd.read_excel(file_path, sheet_name=None)
-            
             text_content = ""
             metadata = {"sheets": len(excel_data), "total_rows": 0, "total_cols": 0}
-            
+            raw_data = {}
+
             for sheet_name, df in excel_data.items():
                 text_content += f"\n--- Hoja: {sheet_name} ---\n"
-                
-                # Convertir DataFrame a texto estructurado
-                if not df.empty:
-                    # Encabezados
-                    headers = " | ".join([str(col) for col in df.columns])
-                    text_content += f"Columnas: {headers}\n\n"
-                    
-                    # Datos (máximo 100 filas para evitar sobrecarga)
-                    sample_df = df.head(100)
-                    for index, row in sample_df.iterrows():
-                        row_text = " | ".join([str(val) for val in row.values])
-                        text_content += f"{row_text}\n"
-                    
-                    if len(df) > 100:
-                        text_content += f"\n... (mostrando 100 de {len(df)} filas) ...\n"
-                    
-                    metadata["total_rows"] += len(df)
-                    metadata["total_cols"] = max(metadata["total_cols"], len(df.columns))
-                
-                text_content += "\n"
-            
+                text_content += df.to_csv(index=False, sep="\t")
+                metadata["total_rows"] += df.shape[0]
+                metadata["total_cols"] = max(metadata["total_cols"], df.shape[1])
+                raw_data[sheet_name] = df.to_dict(orient="records")  # <-- Guarda los datos
+
             return {
                 "type": "structured_data",
                 "content": text_content.strip(),
                 "metadata": metadata,
                 "extraction_method": "pandas",
-                "raw_data": excel_data  # Guardar datos originales para análisis
+                "raw_data": raw_data  # <-- Añade esto
             }
-            
         except Exception as e:
             raise Exception(f"Error extrayendo Excel: {str(e)}")
     
     async def _extract_csv_data(self, file_path: Path) -> Dict:
         """Extrae datos de archivo CSV"""
+        import pandas as pd
         try:
-            # Intentar diferentes encodings
-            encodings = ['utf-8', 'latin-1', 'cp1252']
-            df = None
-            
-            for encoding in encodings:
-                try:
-                    df = pd.read_csv(file_path, encoding=encoding)
-                    break
-                except UnicodeDecodeError:
-                    continue
-            
-            if df is None:
-                raise Exception("No se pudo decodificar el archivo CSV")
-            
-            text_content = ""
+            df = pd.read_csv(file_path)
+            text_content = df.to_csv(index=False, sep="\t")
             metadata = {"rows": len(df), "columns": len(df.columns)}
-            
-            # Encabezados
-            headers = " | ".join([str(col) for col in df.columns])
-            text_content += f"Columnas: {headers}\n\n"
-            
-            # Datos (máximo 100 filas)
-            sample_df = df.head(100)
-            for index, row in sample_df.iterrows():
-                row_text = " | ".join([str(val) for val in row.values])
-                text_content += f"{row_text}\n"
-            
-            if len(df) > 100:
-                text_content += f"\n... (mostrando 100 de {len(df)} filas) ...\n"
-            
             return {
                 "type": "structured_data",
                 "content": text_content.strip(),
                 "metadata": metadata,
                 "extraction_method": "pandas",
-                "raw_data": df
+                "raw_data": df.to_dict(orient="records")  # <-- Añade esto
             }
-            
         except Exception as e:
             raise Exception(f"Error extrayendo CSV: {str(e)}")
     

@@ -16,6 +16,7 @@ class ChatMessage(BaseModel):
     message: str
     session_id: Optional[str] = None
     user_context: Optional[Dict] = None
+    history: Optional[List[Dict]] = None  # <-- Agrega esto
 
 class ChatResponse(BaseModel):
     response: str
@@ -71,7 +72,8 @@ async def send_message(chat_message: ChatMessage):
         result = await chat_service.process_query(
             query=chat_message.message,
             session_id=session_id,
-            user_context=chat_message.user_context
+            user_context=chat_message.user_context,
+            history=chat_message.history   # <-- AGREGAR ESTA LÍNEA
         )
         
         # Calcular tiempo de procesamiento

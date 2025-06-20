@@ -5,6 +5,36 @@ class AsientosContables:
     """Generador universal de asientos contables dinámicos"""
 
     def _extract_amount(self, query: str) -> float:
+        # Detectar patrones flexibles de cantidad y precio unitario
+        match = re.search(
+            r'(\d+)\s+\w+\s*(?:de\s+precio\s+de|de\s+precio|a\s+un\s+precio\s+de|a\s+|de\s+|con\s+un\s+precio\s+de|con\s+precio\s+de|con\s+precio|a|de)\s*([\d][\d.,]*)',
+            query, re.IGNORECASE)
+        if match:
+            cantidad = int(match.group(1))
+            raw_precio = match.group(2)
+            # Normalizar el precio
+            if '.' in raw_precio and ',' in raw_precio:
+                if raw_precio.find('.') < raw_precio.find(','):
+                    raw_precio = raw_precio.replace('.', '').replace(',', '.')
+                else:
+                    raw_precio = raw_precio.replace(',', '')
+            elif ',' in raw_precio:
+                if raw_precio.count(',') == 1 and len(raw_precio.split(',')[-1]) <= 2:
+                    raw_precio = raw_precio.replace(',', '.')
+                else:
+                    raw_precio = raw_precio.replace(',', '')
+            elif '.' in raw_precio:
+                if raw_precio.count('.') == 1 and len(raw_precio.split('.')[-1]) <= 2:
+                    pass
+                else:
+                    raw_precio = raw_precio.replace('.', '')
+            try:
+                precio = float(raw_precio)
+                monto = cantidad * precio
+                if monto > 0:
+                    return monto
+            except Exception:
+                pass
         # Busca el primer monto grande (no porcentaje ni interés)
         patterns = [
             r'(?:monto|de|por|por un monto de|por la suma de|por valor de|S/|soles)\s*([\d][\d.,]*)',
@@ -114,14 +144,23 @@ class AsientosContables:
                 return glosa
         return ""
 
+    def _extract_cuotas(self, query: str) -> int:
+        # Busca frases como "3 cuotas", "tres cuotas", "primeras 3 cuotas", etc.
+        match = re.search(r'(\d+)\s*(primeras|primeros)?\s*cuotas?', query, re.IGNORECASE)
+        if match:
+            try:
+                return int(match.group(1))
+            except Exception:
+                pass
+        return 1  # Por defecto 1 cuota
+
     async def generate_response(self, query: str, context, metadata) -> str:
         q = query.lower()
         monto = self._extract_amount(query)
         interes = self._extract_interest(query, monto)
         partes = self._extract_partes(query)
         glosa = self._extract_glosa(query)
-
-
+        cuotas_pagar = self._extract_cuotas(query)  # <-- Nuevo
 
         # Detecta tipo de asiento as
         if "pago a cuenta" in q and ("marzo" in q or "anticipo" in q):
@@ -141,7 +180,7 @@ class AsientosContables:
         if "accionista" in q and ("préstamo" in q or "prestamo" in q):
             return self._asiento_prestamo_accionista(monto, interes, partes, glosa)
         if "préstamo bancario" in q or "prestamo bancario" in q or "préstamo financiero" in q or "prestamo financiero" in q or "cuota" in q or "mensual" in q or "plazo" in q:
-            return self._asiento_prestamo_bancario(monto, interes, partes, glosa)
+            return self._asiento_prestamo_bancario(monto, interes, partes, glosa, cuotas_pagar=cuotas_pagar)
         elif ("préstamo" in q or "prestamo" in q) and ("sin interés" in q or "sin intereses" in q or interes == 0):
             return self._asiento_prestamo_sin_interes(monto, partes, glosa)
         elif "préstamo" in q or "prestamo" in q:
@@ -560,13 +599,14 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
 
 ### 1️⃣ Devengo de intereses hasta la fecha de cancelación
 
-| CUENTA | DENOMINACIÓN | DEBE | HABER |
-|--------|-----------------------------------------------|------|-------|
-| 67     | GASTOS FINANCIEROS                           | {format_currency(interes)} |   |
-| 673    | INTERESES POR PRESTAMOS                      |   |   |
-| 37     | ACTIVO DIFERIDO                              |   | {format_currency(interes)} |
-| 373    | INTERESES DIFERIDOS                          |   |   |
-| 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.          |   |   |
+| CUENTA | DENOMINACIÓN                              | DEBE           | HABER         |
+|--------|-------------------------------------------|----------------|---------------|
+| 67     | GASTOS FINANCIEROS                        | {format_currency(interes)} |   |
+| 673    | INTERES. POR PREST. Y OTRAS OBLIG.        |                |               |
+| 6731   | PREST. DE INST. FINANC. Y OTRAS ENT.      |                |               |
+| 37     | ACTIVO DIFERIDO                           |                | {format_currency(interes)} |
+| 373    | INTERESES DIFERIDOS                       |                |               |
+| 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.       |                |               |
 
 **X/X Por el devengo de los intereses hasta la fecha de cancelación**
 """
@@ -574,16 +614,16 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
         asiento2 = f"""
 ### 2️⃣ Cancelación del capital e intereses del préstamo
 
-| CUENTA | DENOMINACIÓN | DEBE | HABER |
-|--------|-----------------------------------------------|------|-------|
+| CUENTA | DENOMINACIÓN                              | DEBE           | HABER         |
+|--------|-------------------------------------------|----------------|---------------|
 | 45     | OBLIGACIONES FINANCIERAS                     | {format_currency(monto)} |   |
-| 451    | PRESTAMOS                                    |   |   |
+| 451    | PRESTAMOS                                    |                |               |
 | 45     | OBLIGACIONES FINANCIERAS                     | {format_currency(interes)} |   |
-| 455    | COSTOS DE FINANCIACIÓN POR PAGAR             |   |   |
-| 4551   | PRESTAMOS                                    |   |   |
-| 10     | EFECTIVO Y EQUIVALENTE DE EFECTIVO           |   | {format_currency(monto + interes)} |
-| 104    | CUENTAS CORRIENTES EN INST. FINANC.          |   |   |
-| 1041   | CUENTAS CORRIENTES OPER.                     |   |   |
+| 455    | COSTOS DE FINANCIACIÓN POR PAGAR             |                |               |
+| 4551   | PRESTAMOS                                    |                |               |
+| 10     | EFECTIVO Y EQUIVALENTE DE EFECTIVO           |                | {format_currency(monto + interes)} |
+| 104    | CUENTAS CORRIENTES EN INST. FINANC.          |                |               |
+| 1041   | CUENTAS CORRIENTES OPERATIVAS                |                |               |
 
 **X/X Por la cancelación de interés y capital**
 """
@@ -591,32 +631,34 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
         asiento3 = f"""
 ### 3️⃣ Extorno de los intereses a devengar
 
-| CUENTA | DENOMINACIÓN | DEBE | HABER |
-|--------|-----------------------------------------------|------|-------|
+| CUENTA | DENOMINACIÓN                              | DEBE           | HABER         |
+|--------|-------------------------------------------|----------------|---------------|
 | 45     | OBLIGACIONES FINANCIERAS                     | {format_currency(interes)} |   |
-| 451    | PRESTAMOS                                    |   |   |
-| 37     | ACTIVO DIFERIDO                              |   | {format_currency(interes)} |
-| 373    | INTERESES DIFERIDOS                          |   |   |
-| 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.          |   |   |
+| 451    | PRESTAMOS                                    |                |               |
+| 37     | ACTIVO DIFERIDO                           |                | {format_currency(interes)} |
+| 373    | INTERESES DIFERIDOS                       |                |               |
+| 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.       |                |               |
 
 **X/X Por el extorno de los intereses a devengar**
 """
         return asiento1 + asiento2 + asiento3
 
-    def _asiento_prestamo_bancario(self, monto, interes, partes, glosa):
+    def _asiento_prestamo_bancario(self, monto, interes, partes, glosa, cuotas_pagar=1, cuotas_totales=12):
         """
-        Asiento profesional para préstamo financiero bancario (PCGE) y pago de la primera cuota.
-        Si no se pasan los valores, usa los del ejemplo.
+        Genera el asiento contable para un préstamo financiero bancario (PCGE)
+        y el pago de las primeras N cuotas (por defecto 1, pero puede ser 3, etc.).
+        Todo es dinámico y profesional.
         """
-        # Valores por defecto si no se pasan
-        if not monto:
-            monto = 10000
-        if not interes:
-            interes = monto * 0.15  # 15% anual
+        # Validación y asignación dinámica
+        if not monto or monto <= 0:
+            return "Por favor indica el monto del préstamo para generar el asiento contable."
+        if not interes or interes <= 0:
+            interes = monto * 0.10  # 10% anual por defecto si no se indica
+        if not cuotas_totales or cuotas_totales < cuotas_pagar:
+            cuotas_totales = 12  # Por defecto 12 cuotas
 
-        cuotas = 12
-        amortizacion_cuota = round(monto / cuotas, 2)
-        interes_cuota = round(interes / cuotas, 2)
+        amortizacion_cuota = round(monto / cuotas_totales, 2)
+        interes_cuota = round(interes / cuotas_totales, 2)
         cuota_total = round(amortizacion_cuota + interes_cuota, 2)
         glosa_final = glosa or "Por el préstamo financiero recibido."
 
@@ -628,7 +670,7 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
 |--------|-------------------------------------------|----------------|---------------|
 | 10     | EFECTIVO Y EQUIVALENTE DE EFECTIVO       | {format_currency(monto)} |               |
 | 104    | CUENTAS CORRIENTES EN INST. FINANC.       |                |               |
-| 1041   | CUENTAS CORRIENTES OPER.                  |                |               |
+| 1041   | CUENTAS CORRIENTES OPERATIVAS                |                |               |
 | 37     | ACTIVO DIFERIDO                           | {format_currency(interes)} |               |
 | 373    | INTERESES DIFERIDOS                       |                |               |
 | 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.       |                |               |
@@ -643,9 +685,11 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
 **X/X {glosa_final}**
 """
 
-        # 2️⃣ Devengo del interés de la primera cuota
-        asiento2 = f"""
-### 2️⃣ Devengo del interés de la primera cuota
+        # Generar asientos para cada cuota solicitada
+        asientos_cuotas = ""
+        for i in range(1, cuotas_pagar + 1):
+            asientos_cuotas += f"""
+### {2*i}️⃣ Devengo del interés de la cuota {i}
 
 | CUENTA | DENOMINACIÓN                              | DEBE           | HABER         |
 |--------|-------------------------------------------|----------------|---------------|
@@ -656,12 +700,9 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
 | 373    | INTERESES DIFERIDOS                       |                |               |
 | 3731   | INT. NO DEVEN. EN TRANSC. CON TERC.       |                |               |
 
-**X/X Por el devengo de los intereses de la primera cuota**
-"""
+**X/X Por el devengo de los intereses de la cuota {i}**
 
-        # 3️⃣ Cancelación de la primera cuota
-        asiento3 = f"""
-### 3️⃣ Cancelación de la primera cuota
+### {2*i+1}️⃣ Cancelación de la cuota {i}
 
 | CUENTA | DENOMINACIÓN                              | DEBE           | HABER         |
 |--------|-------------------------------------------|----------------|---------------|
@@ -674,39 +715,86 @@ Finalmente, el saldo deudor de esta cuenta, al cierre del período, con cargo a 
 | 45511  | INSTITUCIONES FINANCIERAS                 |                |               |
 | 10     | EFECTIVO Y EQUIVALENTE DE EFECTIVO        |                | {format_currency(cuota_total)} |
 | 104    | CUENTAS CORRIENTES EN INST. FINANC.       |                |               |
-| 1041   | CUENTAS CORRIENTES OPER.                  |                |               |
+| 1041   | CUENTAS CORRIENTES OPERATIVAS                |                |               |
 
-**X/X Por la cancelación de la primera cuota**
+**X/X Por la cancelación de la cuota {i}**
 """
 
-        return asiento1 + asiento2 + asiento3
+        return asiento1 + asientos_cuotas
 
-    def _asiento_interes_diferido(self, monto, tipo="por_cobrar"):
-        """
-        Genera los asientos contables para el registro del interés diferido según PCGE 2019.
-        tipo: "por_cobrar" o "por_pagar"
-        """
-        if tipo == "por_cobrar":
-            return f"""
-### 1️⃣ Intereses por Cobrar Diferidos
-
-| CÓDIGO | CUENTA                        | DEBE      | HABER     |
-|--------|-------------------------------|-----------|-----------|
-| 1212   | Intereses por cobrar          | {format_currency(monto)} |           |
-| 761    | Ingresos financieros          |           | {format_currency(monto)} |
-
-**X/X Registro del devengo de intereses por cobrar diferidos.**
-"""
+    def _calcular_igv(self, monto, incluido_igv=False):
+        tasa_igv = 0.18
+        if incluido_igv:
+            base = round(monto / (1 + tasa_igv), 2)
+            igv = round(monto - base, 2)
+            total = monto
         else:
-            return f"""
-### 2️⃣ Intereses por Pagar Diferidos
+            base = monto
+            igv = round(monto * tasa_igv, 2)
+            total = round(base + igv, 2)
+        return base, igv, total
 
-| CÓDIGO | CUENTA                        | DEBE      | HABER     |
-|--------|-------------------------------|-----------|-----------|
-| 671    | Gastos financieros            | {format_currency(monto)} |           |
-| 4112   | Intereses por pagar           |           | {format_currency(monto)} |
+    def _asiento_compra(self, monto, partes, glosa):
+        if monto == 0:
+            return "❌ No se detectó el monto de la compra. Ejemplo: 'compra de mercadería de 2,500 más IGV' o 'compra de teclados por 590 incluido IGV'."
 
-**X/X Registro del devengo de intereses por pagar diferidos.**
+        q = (glosa or "").lower()
+        incluido_igv = "incluido igv" in q or "con igv" in q or "igv incluido" in q
+
+        # Detectar tipo de compra según palabras clave
+        cuenta_gasto, subcuenta, subsubcuenta = "60", "601", "6011"
+        descripcion, detalle = "COMPRAS", "MERCADERÍAS"
+
+        es_servicio = cuenta_gasto == "63"
+
+        base, igv, total = self._calcular_igv(monto, incluido_igv=incluido_igv)
+
+        # Buscar número de factura en el texto
+        match_factura = re.search(r'(factura electrónica|factura|fv[-\s]?\d{2,}-\d+)', q, re.I)
+        factura = match_factura.group(0) if match_factura else ""
+
+        glosa_final = f"Por el registro de la compra de mercadería{' según ' + factura if factura else ''}."
+
+        asiento1 = f"""
+## 🛒 Asiento Contable: Compra de mercadería
+
+| CUENTA | DENOMINACIÓN | DEBE | HABER |
+|--------|--------------|------|-------|
+| 60     | COMPRAS      | {format_currency(base)} |   |
+| 601    | MERCADERÍAS  |      |   |
+| 6011   | MERCADERÍAS  |      |   |
+| 40     | TRIB. CONT. Y APORTES AL SIST. DE PENS. Y DE SALUD POR PAG. | {format_currency(igv)} |   |
+| 401    | GOBIERNO CENTRAL |   |   |
+| 4011   | IMPUESTO GENERAL A LAS VENTAS |   |   |
+| 40111  | IGV – CUENTA PROPIA |   |   |
+| 42     | CUENTAS POR PAGAR COMERCIALES TERCEROS |   | {format_currency(total)} |
+| 421    | FACTURAS, BOLETAS Y OTROS COMPROBANTES POR PAGAR |   |   |
+| 4212   | EMITIDAS |   |   |
+
+**X/X {glosa_final}**
+
+### Detalle del cálculo:
+- Base Imponible: {format_currency(base)}
+- IGV (18%): {format_currency(igv)}
+- Total: {format_currency(total)}
 """
+
+        asiento2 = f"""
+| CUENTA | DENOMINACIÓN | DEBE | HABER |
+|--------|--------------|------|-------|
+| 20     | MERCADERÍAS  | {format_currency(base)} |   |
+| 201    | MERCADERÍAS  |      |   |
+| 2011   | MERCADERÍAS  |      |   |
+| 20111  | COSTO        |      |   |
+| 61     | VARIACIÓN DE INVENTARIOS |   | {format_currency(base)} |
+| 611    | MERCADERÍAS  |   |   |
+| 6111   | MERCADERÍAS  |   |   |
+
+**X/X Por el ingreso de la mercadería al almacén.**
+"""
+
+        return asiento1 + asiento2
+    
+
 # Instancia global
 asientos_contables = AsientosContables()

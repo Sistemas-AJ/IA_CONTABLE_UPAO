@@ -152,9 +152,9 @@ app = FastAPI(
 <ul>
   <li><b>Nombre:</b> Adrian Alejandro Ruiz Carreño</li>
   <li><b>Edad:</b> 19</li>
-  <li><b>Signo:</b> Leo ♌</li>
   <li><b>CEO y dueño:</b> <b>SCORPIONS</b></li>
   <li><b>Desarrollador de la Empresa:</b> Adolfo Jurado</li>
+  <li><b>Estudios:</b> UNIVERSIDAD TECNOLOGICA DEL PERÚ (UTP)</li>
 </ul>
 
 <p align="center">
@@ -239,6 +239,8 @@ async def root():
         <title>{SYSTEM_NAME}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Agrega Font Awesome para iconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <style>
             body {{ 
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -349,17 +351,48 @@ async def root():
             <p>Sistema de Asistente Inteligente para Contabilidad</p>
             <p>Versión {SYSTEM_VERSION}</p>
         </div>
-        <div class="dev-card">
-            <img class="dev-img-rect" src="/static/ADRIAN_ALEJANDRO_RUIZ_CARREÑO.jpeg" alt="Adrian Alejandro Ruiz Carreño">
-            <h3>👨‍💻 <span style="color:#007acc;">Desarrollador</span></h3>
-            <p class="dev-name">Adrian Alejandro Ruiz Carreño</p>
-            <div class="extra-info">
-                <span>Edad: <b>19</b></span>
-                <span>Signo: <b>Leo ♌</b></span>
+        <div class="dev-card" style="max-width:820px;width:100%;margin:0 auto 2rem auto;display:flex;align-items:center;gap:2.5rem;box-sizing:border-box;box-shadow:0 8px 32px #007acc33;background:#fff;border-radius:22px;padding:2.2rem 2.2rem 2rem 2.2rem;">
+            <!-- Información en dos columnas -->
+            <div style="flex:2;display:grid;grid-template-columns:1fr 1fr;gap:1.2rem 2.2rem;text-align:left;">
+                <div>
+                    <b>Nombre:</b> Adrian Alejandro Ruiz Carreño<br>
+                    <b>Edad:</b> 19<br>
+                    <b>CEO y dueño:</b> <a href="https://green-fox-331799.hostingersite.com/" style="color:#007acc;text-decoration:none;">SCORPIONS</a><br>
+                    <b>Desarrollador de la empresa:</b> <b>Adolfo Jurado</b><br>
+                    <b>Estudios:</b> UNIVERSIDAD TECNOLÓGICA DEL PERÚ (UTP)
+                </div>
+                <div>
+                    <b>Tecnologías:</b><br>
+                    <span title="Python" style="font-size:1.5rem;color:#3776AB;"><i class="fab fa-python"></i></span>
+                    <span title="JavaScript" style="font-size:1.5rem;color:#F7DF1E;"><i class="fab fa-js"></i></span>
+                    <span title="Java" style="font-size:1.5rem;color:#007396;"><i class="fab fa-java"></i></span>
+                    <span title="TypeScript" style="font-size:1.5rem;color:#3178C6;"><i class="fab fa-js"></i></span>
+                    <span title="React" style="font-size:1.5rem;color:#61DAFB;"><i class="fab fa-react"></i></span>
+                    <span title="Node.js" style="font-size:1.5rem;color:#339933;"><i class="fab fa-node-js"></i></span>
+                    <span title="Django" style="font-size:1.5rem;color:#092E20;"><i class="fab fa-python"></i> Django</span>
+                    <span title="FastAPI" style="font-size:1.5rem;color:#009688;"><i class="fas fa-bolt"></i> FastAPI</span>
+                    <span title="TailwindCSS" style="font-size:1.5rem;color:#38BDF8;"><i class="fas fa-wind"></i></span>
+                    <span title="SQLite" style="font-size:1.5rem;color:#003B57;"><i class="fas fa-database"></i></span>
+                    <span title="PostgreSQL" style="font-size:1.5rem;color:#336791;"><i class="fas fa-database"></i></span>
+                    <span title="MongoDB" style="font-size:1.5rem;color:#47A248;"><i class="fas fa-leaf"></i></span>
+                    <span title="Wireshark" style="font-size:1.5rem;color:#1679be;"><i class="fas fa-network-wired"></i> Wireshark</span>
+                    <span title="Kali Linux" style="font-size:1.5rem;color:#557C94;"><i class="fab fa-linux"></i> Kali</span>
+                    <span title="Ethical Hacking" style="font-size:1.5rem;color:#e74c3c;"><i class="fas fa-user-secret"></i></span>
+                </div>
+                <div style="grid-column:1/3;margin-top:1.2rem;">
+                    <span style="font-weight:600;">Contacto:</span>
+                    <div style="margin-top:0.3rem;display:flex;flex-wrap:wrap;gap:1.2rem;">
+                        <a href="https://green-fox-331799.hostingersite.com/" style="color:#007acc;text-decoration:none;font-weight:500;">🌐 Portafolio</a>
+                        <a href="https://green-fox-331799.hostingersite.com/" style="color:#007acc;text-decoration:none;font-weight:500;">🌐 Sitio web</a>
+                        <a href="mailto:adrianalejandroruiz19@gmail.com" style="color:#007acc;text-decoration:none;font-weight:500;">✉️ Email</a>
+                        <a href="https://github.com/AdrianRuizC" style="color:#007acc;text-decoration:none;font-weight:500;">💻 GitHub</a>
+                        <a href="https://github.com/SCORPIONS-DEV-INC" style="color:#007acc;text-decoration:none;font-weight:500;">💻 GitHub Scorpions</a>
+                    </div>
+                </div>
             </div>
-            <div class="empresa">
-                <span style="display:block;margin-bottom:0.2rem;">CEO y dueño de <b>SCORPIONS</b></span>
-                <span style="display:block;">Desarrollador de la empresa <b>Adolfo Jurado</b></span>
+            <!-- Imagen a la derecha -->
+            <div style="flex:1;display:flex;justify-content:center;align-items:center;">
+                <img class="dev-img-rect" src="/static/ADRIAN_ALEJANDRO_RUIZ_CARREÑO.jpeg" alt="Adrian Alejandro Ruiz Carreño" style="margin:0;max-width:210px;min-width:150px;aspect-ratio:1/1;object-fit:cover;border-radius:18px;border:3px solid #0099ff;box-shadow:0 0 18px #00d4ff55;">
             </div>
         </div>
 

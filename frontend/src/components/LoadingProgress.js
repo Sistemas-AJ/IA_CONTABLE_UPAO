@@ -8,7 +8,7 @@ const LoadingProgress = ({ progress, stage, isVisible }) => {
     { key: 'searching_docs', text: 'Buscando en documentos...', icon: '📄' },
     { key: 'searching_web', text: 'Consultando información web...', icon: '🌐' },
     { key: 'processing_examples', text: 'Procesando ejemplos...', icon: '📚' },
-    { key: 'generating', text: 'Generando asiento contable...', icon: '⚡' },
+    { key: 'generating', text: 'Generando Tu Respuesta contable...', icon: '⚡' },
     { key: 'finalizing', text: 'Finalizando respuesta...', icon: '✅' }
   ];
 

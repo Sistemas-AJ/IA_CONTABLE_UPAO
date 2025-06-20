@@ -30,9 +30,25 @@ class AIService:
             if context.get("local_documents"):
                 messages.insert(1, {
                     "role": "system", 
-                    "content": f"Contexto relevante: {context['local_documents'][:2000]}"
+                    "content": f"Contexto relevante de documentos entrenados:\n{context['local_documents'][:2000]}"
+                })
+
+            if context.get("user_data"):
+                user_ctx = "\n".join(f"{k}: {v}" for k, v in context["user_data"].items())
+                messages.insert(1, {
+                    "role": "system",
+                    "content": f"Contexto del usuario para esta sesión:\n{user_ctx}"
                 })
             
+            if context.get("history"):
+                history_text = "\n".join(
+                    f"{msg['role']}: {msg['content']}" for msg in context["history"]
+                )
+                messages.insert(1, {
+                    "role": "system",
+                    "content": f"Historial reciente de la conversación:\n{history_text}"
+                })
+
             response = openai.chat.completions.create(
                 model=OPENAI_MODEL,
                 messages=messages,
@@ -58,8 +74,8 @@ Genera asientos contables con códigos PCGE 2019, tablas formateadas y explicaci
             "ratios_financieros": """Eres un analista financiero experto. 
 Explica ratios con fórmulas, interpretación y valores de referencia.""",
             
-            "general": """Eres un asistente contable especializado en contabilidad peruana. 
-Responde con precisión usando normativa local y formato Markdown."""
+            "ai": "Eres un asistente inteligente capaz de responder cualquier tipo de pregunta, no solo contabilidad. Responde de forma clara, útil y profesional.",
+            "general": "Eres un asistente inteligente capaz de responder cualquier tipo de pregunta, no solo contabilidad. Responde de forma clara, útil y profesional."
         }
         
         return prompts.get(query_type, prompts["general"])

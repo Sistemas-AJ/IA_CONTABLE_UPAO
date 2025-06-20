@@ -1,16 +1,139 @@
 import logging
 from typing import Dict, List
 from .asientos_contables import asientos_contables
-from .ai_service import ai_service  # Asegúrate de tener este import
-
-logger = logging.getLogger(__name__)
 
 class EducationalService:
     """Servicio avanzado para educación contable profesional"""
     
     def __init__(self):
-        # Base de conocimientos contables expandida y profesional
-        self.conceptos = {
+        # Base de conocimientos contables
+        self.concepts = {
+            "activo": {
+                "definicion": "Recursos controlados por la empresa que generarán beneficios económicos futuros.",
+                "ejemplo": "Efectivo, cuentas por cobrar, inventarios, maquinaria."
+            },
+            "pasivo": {
+                "definicion": "Obligaciones presentes que requieren la salida de recursos de la empresa.",
+                "ejemplo": "Préstamos bancarios, cuentas por pagar, impuestos por pagar."
+            },
+            "patrimonio neto": {
+                "definicion": "Participación residual en los activos de la empresa después de deducir todos los pasivos. Representa la inversión de los propietarios.",
+                "ejemplo": "Capital social, reservas, resultados acumulados."
+            },
+            "devengado": {
+                "definicion": "Reconocimiento de ingresos y gastos en el momento en que se generan, independientemente de cuándo se recibe o paga el dinero.",
+                "ejemplo": "Un ingreso se devenga cuando se presta el servicio, aunque el pago se reciba después."
+            },
+            "asiento contable": {
+                "definicion": "Registro formal de una transacción económica en los libros contables, siguiendo el principio de partida doble.",
+                "ejemplo": "Compra de mercadería: Debe Mercaderías, Haber Efectivo."
+            },
+            "partida doble": {
+                "definicion": "Sistema contable donde toda transacción afecta al menos dos cuentas, manteniendo la igualdad entre débitos y créditos.",
+                "ejemplo": "Al comprar mercadería al contado: Debe Mercaderías, Haber Caja."
+            },
+            "principio de entidad": {
+                "definicion": "Las actividades de la empresa deben mantenerse separadas de las de sus propietarios u otras entidades.",
+                "ejemplo": "No mezclar gastos personales con los de la empresa."
+            },
+            "principio de empresa en marcha": {
+                "definicion": "Se asume que la empresa continuará operando en el futuro previsible.",
+                "ejemplo": "Los activos se valoran como si la empresa no fuera a liquidarse."
+            },
+            "principio de devengo": {
+                "definicion": "Los ingresos y gastos se reconocen cuando se generan, no cuando se cobran o pagan.",
+                "ejemplo": "Registrar una venta cuando se entrega el producto, aunque el pago sea posterior."
+            },
+            "principio de uniformidad": {
+                "definicion": "Los métodos contables deben aplicarse de manera consistente a lo largo del tiempo.",
+                "ejemplo": "Mantener el mismo método de depreciación cada año."
+            },
+            "principio de prudencia": {
+                "definicion": "No sobreestimar ingresos ni activos, ni subestimar gastos o pasivos.",
+                "ejemplo": "Registrar una posible pérdida tan pronto como sea probable."
+            },
+            "principio de materialidad": {
+                "definicion": "Solo la información significativa debe ser registrada y presentada en los estados financieros.",
+                "ejemplo": "Un gasto pequeño puede omitirse si no afecta la toma de decisiones."
+            },
+            "materialidad": {
+                "definicion": "Sinónimo de importancia relativa. Se refiere a la relevancia de la información para la toma de decisiones.",
+                "ejemplo": "La compra de una engrapadora no es material, pero la adquisición de maquinaria sí."
+            },
+            "importancia relativa": {
+                "definicion": "Sinónimo de materialidad. Se refiere a la relevancia de la información para la toma de decisiones.",
+                "ejemplo": "Un error pequeño en caja puede no ser relevante, pero uno grande sí."
+            },
+            "principio de acumulación": {
+                "definicion": "Las transacciones se reconocen en el período en que ocurren, independientemente del flujo de efectivo.",
+                "ejemplo": "Registrar un gasto cuando se incurre, aunque se pague después."
+            },
+            "principio de realización": {
+                "definicion": "Los ingresos se reconocen cuando se ha completado el proceso de ganancia.",
+                "ejemplo": "Registrar la venta cuando se entrega el bien, no cuando se cobra."
+            },
+            "principio de consistencia": {
+                "definicion": "Una vez adoptado un método contable, debe mantenerse en el tiempo salvo justificación.",
+                "ejemplo": "No cambiar el método de inventarios cada año sin motivo."
+            },
+            "principio de exposición": {
+                "definicion": "La información financiera debe presentarse de manera clara, completa y comprensible.",
+                "ejemplo": "Incluir notas explicativas en los estados financieros."
+            },
+            "principio de valuación al costo": {
+                "definicion": "Los activos se registran al costo de adquisición o producción.",
+                "ejemplo": "Registrar una máquina por su precio de compra, no por su valor de mercado."
+            },
+            "principio de revelación suficiente": {
+                "definicion": "Los estados financieros deben proporcionar toda la información necesaria para la toma de decisiones.",
+                "ejemplo": "Divulgar contingencias legales relevantes en las notas."
+            },
+            "principio de moneda común denominador": {
+                "definicion": "Todas las transacciones deben registrarse en una única moneda.",
+                "ejemplo": "Convertir dólares a soles para los estados financieros en Perú."
+            },
+            "pcge": {
+                "nombre": "Plan Contable General Empresarial (PCGE) 2019",
+                "definicion": (
+                    "El **PCGE 2019** es el Plan Contable General Empresarial vigente en Perú desde 2019. "
+                    "Establece la estructura y codificación de las cuentas contables que deben usar las empresas peruanas, "
+                    "alineado con las Normas Internacionales de Información Financiera (NIIF). "
+                    "Es obligatorio para todas las empresas y facilita la presentación y análisis de los estados financieros."
+                ),
+                "estructura": (
+                    "- Elemento 1: Activo\n"
+                    "- Elemento 2: Pasivo\n"
+                    "- Elemento 3: Patrimonio\n"
+                    "- Elemento 4: Ingresos\n"
+                    "- Elemento 5: Gastos\n"
+                    "- Elemento 6: Cuentas de orden"
+                ),
+                "referencia": "Resolución CNC N° 043-2019-EF/30"
+            },
+            "roe": {
+                "nombre": "ROE (Return on Equity)",
+                "definicion": (
+                    "El **ROE** (Return on Equity) es un ratio financiero que mide la rentabilidad "
+                    "del patrimonio de una empresa. Indica cuántas utilidades genera la empresa por cada sol invertido por los accionistas."
+                ),
+                "formula": "ROE = Utilidad Neta / Patrimonio Promedio",
+                "interpretacion": (
+                    "Un ROE alto significa que la empresa es eficiente generando utilidades con el capital de los accionistas. "
+                    "Valores típicos: >15% excelente, 10-15% aceptable, <10% bajo."
+                ),
+                "ejemplo": (
+                    "Si la utilidad neta es S/ 20,000 y el patrimonio promedio es S/ 100,000:\n"
+                    "ROE = 20,000 / 100,000 = 0.20 = 20%"
+                )
+            },
+            "activo": {
+                "nombre": "Activo",
+                "definicion": (
+                    "Un **activo** es un recurso controlado por la empresa del que se espera obtener beneficios económicos futuros. "
+                    "Ejemplos: dinero, mercaderías, maquinaria, cuentas por cobrar."
+                ),
+                "ejemplo": "Ejemplo: El dinero en caja y las computadoras de la empresa son activos."
+            },
             "asiento_contable": {
                 "definicion": "Un asiento contable es un registro en los libros contables de una empresa que refleja una transacción económica. Este registro se realiza siguiendo el principio de partida doble, donde cada transacción afecta al menos dos cuentas: una cuenta se debita y otra se acredita, manteniendo siempre el equilibrio contable.",
                 "caracteristicas": [
@@ -237,6 +360,19 @@ class EducationalService:
                     "ROE = Utilidad Neta / Patrimonio Promedio. Ejemplo: Utilidad Neta S/ 10,000 y Patrimonio Promedio S/ 50,000, entonces ROE = 20%",
                     "Rotación de Inventarios = Costo de Ventas / Inventario Promedio. Ejemplo: Costo de Ventas S/ 120,000 e Inventario Promedio S/ 30,000, entonces Rotación = 4 veces"
                 ]
+            },
+            
+            "principio de uniformidad": {
+                "definicion": "El principio de uniformidad establece que los criterios contables deben aplicarse de manera consistente a lo largo del tiempo, salvo que existan razones fundadas para cambiarlos.",
+                "ejemplo": "Si una empresa usa el método de depreciación lineal, debe mantenerlo en los siguientes ejercicios."
+            },
+            "materialidad": {
+                "definicion": "El principio de materialidad establece que solo la información significativa debe ser registrada y presentada en los estados financieros. Un hecho es material si su omisión o presentación incorrecta puede influir en las decisiones económicas de los usuarios.",
+                "ejemplo": "Un gasto menor puede omitirse si no afecta la toma de decisiones, pero una pérdida significativa debe ser revelada."
+            },
+            "importancia relativa": {
+                "definicion": "Sinónimo de materialidad. Se refiere a la relevancia de la información para la toma de decisiones.",
+                "ejemplo": "La compra de una engrapadora no es material, pero la adquisición de maquinaria sí."
             }
         }
         
@@ -492,9 +628,11 @@ HABER: Depreciación Acumulada S/ 900"""
         }
     
     async def generate_response(self, query: str, context: Dict, metadata: Dict) -> str:
-        """Genera respuesta educativa avanzada o delega a IA si no es concepto conocido"""
-        query_lower = query.lower().strip()
-        
+        query_lower = query.lower()
+        # Si la pregunta es sobre registrar, contabilizar, asiento de compra/venta, deriva a asientos_contables
+        if any(word in query_lower for word in ["compra de mercaderías", "compra de mercaderias", "venta con igv", "venta de mercaderías", "venta de mercaderias", "asiento de compra", "asiento de venta", "registrar una compra", "registrar una venta"]):
+            return await asientos_contables.generate_response(query, context, metadata)
+
         # ✅ VERIFICAR SI ES CONCEPTO CONTABLE
         if self._is_accounting_concept(query_lower):
             
@@ -547,16 +685,26 @@ HABER: Depreciación Acumulada S/ 900"""
             return self._explain_asiento_contable()
             
         # Buscar otros conceptos en la base de conocimientos
-        for concepto_key, concepto_data in self.conceptos.items():
+        for concepto_key, concepto_data in self.concepts.items():
             if concepto_key.replace("_", " ") in query or concepto_key in query:
                 return self._format_concept_explanation(concepto_key, concepto_data)
         
-        # Si no encuentra concepto específico, dar ayuda general
-        return self._generate_educational_help()
+        # Sinónimos manuales
+        q = query.lower()
+        for key, data in self.concepts.items():
+            if key in q:
+                return self._format_concept_explanation(key, data)
+        # Sinónimos manuales
+        if "materialidad" in q or "importancia relativa" in q:
+            data = self.concepts.get("materialidad")
+            if data:
+                return self._format_concept_explanation("materialidad", data)
+        # ...otros sinónimos...
+        return ""
     
     def _explain_asiento_contable(self) -> str:
         """Explicación específica de asientos contables en formato educativo"""
-        data = self.conceptos["asiento_contable"]
+        data = self.concepts["asiento_contable"]
         
         response = f"# 📚 ASIENTO CONTABLE\n\n"
         response += f"## 📝 Definición\n{data['definicion']}\n\n"

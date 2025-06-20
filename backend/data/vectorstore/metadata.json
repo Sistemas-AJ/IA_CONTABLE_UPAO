@@ -907,5 +907,1085 @@
     "file_hash": "3acf06fc8944058ea21376ba6e68bb02",
     "upload_time": "2025-06-17T16:51:48.359942",
     "file_type": "text"
+  },
+  {
+    "texto": "--- Hoja: CASO EXPLICADO ---\nColumnas: Unnamed: 0 | Unnamed: 1 | CASO EXPLICADO | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14 | Unnamed: 15 | Unnamed: 16 | Unnamed: 17 | Unnamed: 18 | Unnamed: 19 | Unnamed: 20 | Unnamed: 21 | Unnamed: 22 | Unnamed: 23 | Unnamed: 24 | Unnamed: 25 | Unnamed: 26 | Unnamed: 27 | Unnamed: 28 | Unnamed: 29 | Unnamed: 30 | Unnamed: 31 | Unnamed: 32 | Unnamed: 33 | Unnamed: 34\n\nnan | nan | La empresa comercial Piura S.A.C., al cierre del año 2025, presenta los siguientes estados financieros y requiere el cálculo de los ratios de liquidez y de gestión que se detallan a continuación: | nan | nan | nan | nan | nan | Formulas de Ratios de Liquidez | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Fórmulas de Ratios de Gestión | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan |",
+    "id": 101,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 0,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "e Gestión | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ratios de Liquidez | nan | Ratios de Gestion | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Ratio de Liquidez General | nan | .- Rotación de Cartera | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Capital de Trabajo | nan | .- Rotación de Inventarios ( veces y dias) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 102,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 1,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Prueba Ácida | nan | .- Rotación de Activos | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Prueba Defensiva | nan | .- Rotación de Cuentas por Cobrar | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de cartera | nan | nan | nan | = | 180000.0 | nan | = | 2.0 | nan | nan | nan\nnan | nan | Datos adicional:  | nan | nan | nan | nan | nan | Ratios de Liquidez General | nan | nan | nan | = | 400000.0 | nan | = | 1.",
+    "id": 103,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 2,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | Ratios de Liquidez General | nan | nan | nan | = | 400000.0 | nan | = | 1.8561484918793503 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 90000.0 | nan | nan | nan | nan | nan | nan\nnan | nan | .- Al inicio del período, la entidad contaba con S/ 500,000.00 en cuentas por cobrar. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 215500.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- El inventario inicial fue de 60,000 unidades, mientras que el inventario final alcanzó las 30,000 unidades. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- La ventas al crédito equivalen al 30% del total de las ventas  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan",
+    "id": 104,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 3,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "de las ventas  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | Comercial Piura S.A.C. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | ESTADO DE SITUACIÓN FINANCIERA | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | al 31 de diciembre del 2025 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Inventario (Veces) | nan | nan | nan | nan | nan | nan | = | 430000.0 | nan | = | 28.666666666666668\nnan | (Expresado en soles) | nan | nan | nan | nan |",
+    "id": 105,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 4,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| = | 430000.0 | nan | = | 28.666666666666668\nnan | (Expresado en soles) | nan | nan | nan | nan | nan | nan | Capital de trabajo | nan | nan | nan | = | 400000.0 | nan | - | 215500.0 | nan | = | 184500.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 15000.0 | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | ACTIVO | S/. | PASIVO | S/. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo Corriente | nan | Pasivo Corriente | nan | nan |",
+    "id": 106,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 5,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan\nnan | nan | Activo Corriente | nan | Pasivo Corriente | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Efectivo y equivalente de efectivo | 132500 | Sobregiro Bancario | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Cuentas por cobrar comerciales, neto | 60000 | Trib. y aport. Sist. Pens. y salud por pagar | 53000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Inventario (Días) | nan | nan | nan | nan | nan | nan | = | 365.0 | nan | = | 12.732558139534882\nnan | nan | Cuentas por cobrar al personal, a los accionistas (socios) y directores | 5000 | Cuentas por pagar comerciales | 160000 | nan | nan | nan |",
+    "id": 107,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 6,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "cionistas (socios) y directores | 5000 | Cuentas por pagar comerciales | 160000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 28.666666666666668 | nan | nan | nan\nnan | nan | Materiales Auxiliares, Suministros Y Repuestos | 6000 | Otras cuentas por pagar | nan | nan | nan | Prueba Acida | nan | nan | nan | = | 400000.0 | nan | - | 190000.0 | nan | = | 0.974477958236659 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo por impuesto a las ganancias | nan | Remuneraciones y participaciones por pagar | 2500 | nan | nan | nan | nan | nan | nan | nan | 215500.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Inventarios, neto | 190000 | Pasivo por impuesto a las ganancias | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 108,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 7,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "vo por impuesto a las ganancias | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Servicios y otros contratados por anticipado | 6500 | Pasivos por arrenadamiento - C | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Obligaciones Financieras - C | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Total activo corriente | 400000 | Total pasivo corriente | 215500 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Activos Totales | nan | nan | nan | nan | nan | nan | = | 600000.0 | nan | = | 0.",
+    "id": 109,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 8,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | Rotacion de Activos Totales | nan | nan | nan | nan | nan | nan | = | 600000.0 | nan | = | 0.8810572687224669\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 681000.0 | nan | nan | nan\nnan | nan | nan | nan | Pasivo no corriente | nan | nan | nan | Prueba Defensiva | nan | nan | nan | = | 132500.0 | nan | = | 0.6148491879350348 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo no corriente | nan | Obligaciones financieras - NC | 230000 | nan | nan | nan | nan | nan | nan | nan | 215500.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Propiedad de inversión | nan | Pasivos por arrenadamiento - NC | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan",
+    "id": 110,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 9,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nadamiento - NC | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Cuentas por cobrar comerciales, neto | 260000 | Provisiones | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Propiedad, planta y equipo (Neto) | 30000 | Pasivo por impuestos diferidos | nan | nan | nan | Interpretacion:  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Intangibles, neto | nan | Total pasivo no corriente | 230000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Depreciación",
+    "id": 111,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 10,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "an | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Depreciación y Amortización Acumulados | -9000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de cuentas por cobrar | nan | nan | nan | nan | nan | nan | = | 600000.0 | nan | = | 1.875\nnan | nan | Activo Diferido | nan | Total pasivo | 445500 | nan | nan | 1. Ratio de Liquidez General = 1.86 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 320000.0 | nan | nan | nan\nnan | nan | Total activo no corriente | 281000 | nan | nan | nan | nan | Este ratio indica que por cada sol de deuda corriente, la empresa posee S/ 1.86 en activos corrientes. Es un nivel adecuado de liquidez y demuestra que la empresa tiene recursos suficientes para cubrir sus obligaciones a corto plazo. En términos generales, un valor superior a 1 refleja una posición",
+    "id": 112,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 11,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "r sus obligaciones a corto plazo. En términos generales, un valor superior a 1 refleja una posición financiera solvente y con menor riesgo de iliquidez. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Patrimonio | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Capital social | 168172.5 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Interpretacion:  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Reserva legal | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan",
+    "id": 113,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 12,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Resultados Acumulados | nan | nan | nan | 2. Capital de Trabajo = S/ 184,500.00 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Utilidad del Ejercicio | 67327.5 | nan | nan | El capital de trabajo positivo refleja la capacidad de la empresa para financiar sus operaciones y sostener sus necesidades operativas. Los S/184,500.00 demuestran que la entidad tiene un margen razonable para manejar sus actividades ordinarias y absorber eventuales fluctuaciones en efectivo o inventarios. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 1. Rotación de Cartera = 2.00 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Total patrimonio | 235500 | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 114,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 13,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | Total patrimonio | 235500 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Este ratio indica que las cuentas por cobrar se convierten en efectivo aproximadamente dos veces durante el período. Es un nivel moderado de rotación que sugiere que la empresa tarda, en promedio, seis meses en cobrar sus cuentas por cobrar. Si bien refleja un ciclo de cobranza aceptable, existe espacio para mejorar la eficiencia en la gestión del crédito y acelerar los flujos de efectivo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Total activo | 681000 | Total pasivo y patrimonio | 681000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan",
+    "id": 115,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 14,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | 3. Prueba Ácida = 0.97 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | 0 | nan | nan | La prueba ácida excluye los inventarios de los activos corrientes, ya que estos pueden no ser rápidamente convertibles en efectivo. El valor de 0.97 señala que por cada sol de deuda corriente, la empresa dispone de S/ 0.97 en activos líquidos (sin considerar inventarios). Aunque ligeramente por debajo de 1, no representa un riesgo crítico inmediato; sin embargo, sugiere la necesidad de vigilar la gestión de inventarios y cuentas por cobrar para garantizar la liquidez a corto plazo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 116,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 15,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "a liquidez a corto plazo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 2. Rotación de Inventario (veces) = 28.67 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La empresa renueva sus inventarios casi 29 veces en el año. Es un valor alto que evidencia un manejo eficiente del inventario, evitando acumulaciones excesivas y mejorando la rotación de los productos. Este resultado sugiere una adecuada administración de las existencias y un ciclo operativo ágil. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Comercial Piura S.A.C. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | ESTADO DE RESULTADOS | nan | nan | nan",
+    "id": 117,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 16,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | ESTADO DE RESULTADOS | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | al 31 de diciembre del 2025 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | (Expresado en soles) | nan | nan | nan | nan | nan | 4. Prueba Defensiva = 0.61 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 3. Rotación de Inventario (días) = 12.73 días | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ingresos de actividades ordinarias    | 600000 | nan | nan | nan | nan | La prueba defensiva evalúa la cobertura inmediata de las obligaciones corrientes con los recursos más líquidos: caja y",
+    "id": 118,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 17,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "evalúa la cobertura inmediata de las obligaciones corrientes con los recursos más líquidos: caja y bancos. Un valor de 0.61 indica que el 61% de las deudas de corto plazo pueden ser cubiertas directamente con efectivo disponible. Aunque no es un valor crítico, alerta sobre la importancia de mejorar la gestión de caja y la eficiencia en la cobranza para asegurar la capacidad de pago inmediata. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La empresa tarda, en promedio, alrededor de 13 días en vender o renovar completamente su inventario. Este periodo corto reafirma la buena gestión del inventario y sugiere que la empresa mantiene un nivel óptimo de existencias, reduciendo costos de almacenamiento y obsolescencia. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Costo de Ventas     | -430000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 119,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 18,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) Bruta                                                                                                                                                                                 | 170000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | GASTOS OPERACIONALES:  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos de Ventas y Distribuci¢n        | -3000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 4. Rotación de Activos Totales =",
+    "id": 120,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 19,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 4. Rotación de Activos Totales = 0.88 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos de Administraci¢n               | -79000 | nan | nan | nan | nan | Desiciones Basadas en los Ratios de Liquidez y Gestion | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Por cada sol invertido en activos, la empresa genera S/ 0.88 en ventas. Este nivel de rotación es moderado y sugiere que la empresa aún puede optimizar el uso de sus activos fijos y corrientes para incrementar sus ingresos. Una mayor eficiencia en la utilización de activos podría incrementar este ratio y, por ende, la rentabilidad operativa. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) de la baja en Activos Financieros me | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 121,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 20,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros Ingresos Operativos                | 21000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros Gastos Operativos                | -3000 | nan | nan | nan | nan | 1. Decisiones en materia de liquidez | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otras ganancias (perdidas) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 5. Rotación de Cuentas por Cobrar = 1.88 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) por",
+    "id": 122,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 21,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) por actividades de operaci¢n                                                                                                                                                          | 106000 | nan | nan | nan | nan | ✅ Mantener y consolidar la liquidez general | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Este ratio indica que la empresa convierte sus cuentas por cobrar en efectivo casi dos veces al año. Similar a la rotación de cartera, refleja un ciclo de cobranza algo lento. Implica que, en promedio, los clientes tardan unos seis meses en pagar, por lo que se recomienda fortalecer las políticas de crédito y cobranza para reducir la exposición al riesgo y mejorar la liquidez. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | OTROS INGRESOS Y GASTOS | nan | nan | nan | nan | nan | El ratio de liquidez general (1.86) es",
+    "id": 123,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 22,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "an | OTROS INGRESOS Y GASTOS | nan | nan | nan | nan | nan | El ratio de liquidez general (1.86) es saludable, pero la empresa no debe confiarse. Es esencial mantener este nivel de solvencia, vigilando de cerca los pagos a proveedores y asegurándose de que los activos corrientes sigan superando a los pasivos corrientes. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ingresos Financieros              | 2500 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos Financieros                | -13000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Diferencias de Cambio Neto |",
+    "id": 124,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 23,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Diferencias de Cambio Neto | nan | nan | nan | nan | nan | ✅ Mejorar la prueba ácida y defensiva | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros ingresos (gastos) de las subsidiarias,negocios co | nan | nan | nan | nan | nan | La prueba ácida (0.97) y la prueba defensiva (0.61) muestran que la liquidez inmediata no está del todo consolidada. Esto implica que, si surgieran necesidades imprevistas de efectivo, podría haber cierta presión. Para mitigarlo: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancias (Perdidas) que surgen de la Diferencia entre | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 125,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 24,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Diferencia entre el importe en libros de los activos di | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Resultado antes de Impuesto a las Ganancias | 95500 | nan | nan | nan | nan | .- Acelerar la cobranza de cuentas por cobrar. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gasto por Impuesto a las Ganancias    | -28172.5 | nan | nan | nan | nan | .- Revisar la política de inventarios para identificar posibles reducciones de inventario o ventas rápidas de excedentes. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 126,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 25,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "o ventas rápidas de excedentes. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia(Perdida) Neta de Operaciones Continuadas | nan | nan | nan | nan | nan | .- Analizar la disponibilidad de líneas de crédito o financiamiento de corto plazo para emergencias. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (perdida)  procedente de operaciones discontin | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) Neta del Ejercicio | 67327.5 | nan | nan | nan | nan | 2. Decisiones en la gestión de cartera y cobranzas | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 127,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 26,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "en la gestión de cartera y cobranzas | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | ✅ Revisar y fortalecer la política de crédito y cobranza | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | La rotación de cartera (2.00) y la rotación de cuentas por cobrar (1.88) sugieren que los clientes tardan demasiado en pagar (aprox. 6 meses). Esto impacta directamente en la liquidez y eleva el riesgo de morosidad. Para corregirlo: | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 128,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 27,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "va el riesgo de morosidad. Para corregirlo: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Establecer límites de crédito más estrictos para clientes de alto riesgo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Ofrecer descuentos por pronto pago. | nan | nan |",
+    "id": 129,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 28,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "an | nan | nan | nan | nan | nan | nan | nan | .- Ofrecer descuentos por pronto pago. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Implementar recordatorios automáticos y seguimiento constante a las cuentas pendientes. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | 3. Decisiones sobre inventarios | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan |",
+    "id": 130,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 29,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | ✅ Mantener la eficiencia en la gestión de inventarios | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | La rotación de inventarios (28.67 veces, 12.73 días) es muy eficiente. Sin embargo, hay que asegurarse de que estos niveles no generen quiebres de stock o afecten el servicio al cliente. La empresa debe: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan |",
+    "id": 131,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 30,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Mantener monitoreos continuos de la demanda. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Ajustar inventarios de acuerdo con la estacionalidad o cambios de mercado. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 132,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 31,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | 4. Decisiones sobre la gestión de activos | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | ✅ Mejorar la utilización de los activos | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 133,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 32,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | La rotación de activos totales (0.88) señala que los activos no están generando el nivel óptimo de ventas. Para mejorar: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\n\n... (mostrando 100 de 123 filas) ...\n\n\n--- Hoja: CASO PROPUESTO ---\nColumnas: Unnamed: 0 | Unnamed: 1 | CASO EXPLICADO | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14 | Unnamed: 15 | Unnamed: 16 | Unnamed: 17 | Unnamed: 18 | Unnamed: 19",
+    "id": 134,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 33,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "2 | Unnamed: 13 | Unnamed: 14 | Unnamed: 15 | Unnamed: 16 | Unnamed: 17 | Unnamed: 18 | Unnamed: 19 | Unnamed: 20 | Unnamed: 21 | Unnamed: 22 | Unnamed: 23 | Unnamed: 24 | Unnamed: 25 | Unnamed: 26 | Unnamed: 27 | Unnamed: 28 | Unnamed: 29 | Unnamed: 30 | Unnamed: 31 | Unnamed: 32 | Unnamed: 33 | Unnamed: 34\n\nnan | nan | La empresa Comercial Andina S.A.C., al cierre del año 2026, presenta los siguientes estados financieros y requiere el cálculo de los ratios de liquidez y de gestión que se detallan a continuación: | nan | nan | nan | nan | nan | Formulas de Ratios de Liquidez | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Fórmulas de Ratios de Gestión | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ratios de",
+    "id": 135,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 34,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ratios de Liquidez | nan | Ratios de Gestion | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Ratio de Liquidez General | nan | .- Rotación de Cartera | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Capital de Trabajo | nan | .- Rotación de Inventarios ( veces y dias) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Prueba Ácida | nan | .- Rotación de Activos | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 136,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 35,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- Prueba Defensiva | nan | .- Rotación de Cuentas por Cobrar | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de cartera | nan | nan | nan | = | 155000.0 | nan | = | 2.8181818181818183 | nan | nan | nan\nnan | nan | Datos adicional:  | nan | nan | nan | nan | nan | Ratios de Liquidez General | nan | nan | nan | = | 415910.0 | nan | = | 1.8403097345132744 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 55000.0 | nan | nan | nan | nan | nan | nan\nnan | nan | .- Al inicio del período, la entidad contaba con S/ 450,000.",
+    "id": 137,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 36,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan\nnan | nan | .- Al inicio del período, la entidad contaba con S/ 450,000.00 en cuentas por cobrar. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 226000.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .- El inventario inicial fue de 70,000 unidades, mientras que el inventario final alcanzó las 35,000 unidades. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | .-  La ventas al credito equivalen al 25% del total de las ventas  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 138,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 37,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | Comercial Andina S.A.C. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | ESTADO DE SITUACIÓN FINANCIERA | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Inventario (Veces) | nan | nan | nan | nan | nan | nan | = | 440000.0 | nan | = | 25.142857142857142\nnan | al 31 de diciembre del 2026 | nan | nan | nan | nan | nan | nan | Capital de trabajo | nan | nan | nan | = | 415910.0 | nan | - | 226000.0 | nan | = | 189910.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 17500.0 | nan | nan | nan\nnan | (Expresado",
+    "id": 139,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 38,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | 17500.0 | nan | nan | nan\nnan | (Expresado en soles) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | ACTIVO | S/. | PASIVO | S/. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo Corriente | nan | Pasivo Corriente | nan |",
+    "id": 140,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 39,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan\nnan | nan | Activo Corriente | nan | Pasivo Corriente | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Efectivo y equivalente de efectivo | 153910 | Sobregiro Bancario | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Inventario (Días) | nan | nan | nan | nan | nan | nan | = | 365.0 | nan | = | 14.517045454545455\nnan | nan | Cuentas por cobrar comerciales, neto | 65000 | Trib. y aport. Sist. Pens. y salud por pagar | 48000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 25.142857142857142 | nan | nan | nan\nnan | nan | Cuentas por cobrar al personal, a los accionistas (socios) y directores | 4500 | Cuentas por pagar comerciales | 175000",
+    "id": 141,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 40,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "l personal, a los accionistas (socios) y directores | 4500 | Cuentas por pagar comerciales | 175000 | nan | nan | Prueba Acida | nan | nan | nan | = | 415910.0 | nan | - | 180000.0 | nan | = | 1.0438495575221238 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Materiales Auxiliares, Suministros Y Repuestos | 7000 | Otras cuentas por pagar | nan | nan | nan | nan | nan | nan | nan | nan | 226000.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo por impuesto a las ganancias | nan | Remuneraciones y participaciones por pagar | 3000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Inventarios, neto | 180000 | Pasivo por impuesto a las ganancias | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 142,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 41,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| Pasivo por impuesto a las ganancias | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Servicios y otros contratados por anticipado | 5500 | Pasivos por arrenadamiento - C | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Obligaciones Financieras - C | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de Activos Totales | nan | nan | nan | nan | nan | nan | = | 620000.0 | nan | = | 0.8696749940385182\nnan | nan | Total activo corriente | 415910 | Total pasivo corriente | 226000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 143,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 42,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 712910.0 | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | Prueba Defensiva | nan | nan | nan | = | 153910.0 | nan | = | 0.6810176991150443 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Pasivo no corriente | nan | nan | nan | nan | nan | nan | nan | nan | 226000.0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Activo no corriente | nan | Obligaciones financieras - NC | 240000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Propiedad de inversión | nan | Pasivos por arrenadamiento - NC | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 144,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 43,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "arrenadamiento - NC | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Cuentas por cobrar comerciales, neto | 275000 | Provisiones | nan | nan | nan | 1. Ratio de Liquidez General = 1.84 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Propiedad, planta y equipo (Neto) | 32000 | Pasivo por impuestos diferidos | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Intangibles, neto | nan | Total pasivo no corriente | 240000 | nan | nan | Este ratio indica que, por cada sol de deuda a corto plazo, la empresa dispone de S/ 1.84 en activos corrientes. Este nivel es sólido y refleja que la entidad",
+    "id": 145,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 44,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "la empresa dispone de S/ 1.84 en activos corrientes. Este nivel es sólido y refleja que la entidad mantiene un margen razonable de seguridad para enfrentar sus obligaciones corrientes. Sin embargo, no debe considerarse únicamente como indicador de fortaleza financiera, ya que también implica que existen activos corrientes que podrían no ser fácilmente convertibles en efectivo de inmediato. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | Rotacion de cuentas por cobrar | nan | nan | nan | nan | nan | nan | = | 620000.0 | nan | = | 1.8235294117647058\nnan | nan | Depreciación y Amortización Acumulados | -10000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 340000.0 | nan | nan | nan\nnan | nan | Activo Diferido | nan | Total pasivo | 466000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 146,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 45,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "0 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Total activo no corriente | 297000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Patrimonio | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 1. Rotación de Cartera = 2.82 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Capital social | 175000 | nan | nan | 2. Capital de Trabajo = S/ 189,910.00 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Reserva legal | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 147,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 46,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan\nnan | nan | nan | nan | Reserva legal | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La rotación de cartera de 2.82 veces por año indica que las cuentas por cobrar se convierten en efectivo aproximadamente cada 129 días (365/2.82). Aunque hay una ligera mejora en comparación con casos anteriores (mayor rotación), sigue representando un ciclo de cobro prolongado, que puede afectar la liquidez y la eficiencia operativa. Es esencial reforzar las políticas de cobranza y considerar incentivos para pagos anticipados, reduciendo el riesgo de morosidad. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Resultados Acumulados | nan | nan | nan | El capital de trabajo es positivo y bastante robusto, evidenciando que la empresa tiene recursos suficientes para sostener sus operaciones y cubrir sus necesidades operativas cotidianas. Este margen de casi S/ 190 mil fortalece la capacidad de la",
+    "id": 148,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 47,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "sus necesidades operativas cotidianas. Este margen de casi S/ 190 mil fortalece la capacidad de la empresa para afrontar gastos imprevistos o aprovechar oportunidades de inversión operativa a corto plazo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Utilidad del Ejercicio | 71910 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | Total patrimonio | 246910 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 149,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 48,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Total activo | 712910 | Total pasivo y patrimonio | 712910 | nan | nan | 3. Prueba Ácida = 1.04 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 2. Rotación de Inventario (veces) = 25.14 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | 0 | nan | nan | Este ratio depura los inventarios, concentrándose en los activos más líquidos. Con un valor ligeramente superior a 1, la empresa está en condiciones de cubrir sus pasivos corrientes sin depender de la venta de inventarios. Esto indica que, aun si los inventarios no se pudieran convertir en efectivo inmediatamente, la",
+    "id": 150,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 49,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "os. Esto indica que, aun si los inventarios no se pudieran convertir en efectivo inmediatamente, la empresa mantendría la capacidad de pago para sus compromisos inmediatos, reduciendo el riesgo de tensiones de liquidez. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La empresa renueva su inventario más de 25 veces al año, lo que evidencia un muy buen manejo operativo. Este alto nivel de rotación sugiere que no existen grandes acumulaciones de existencias, liberando capital y minimizando riesgos de obsolescencia. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Comercial Andina S.A.C. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 151,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 50,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | ESTADO DE RESULTADOS | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 3. Rotación de Inventario (días) = 14.52 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | al 31 de diciembre del 2026 | nan | nan | nan | nan | nan | 4. Prueba Defensiva = 0.68 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | (Expresado en soles) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | El ciclo promedio de inventario de 14.5 días ratifica la eficiencia en la gestión de inventarios. Este resultado implica que la empresa logra vender o reponer rápidamente",
+    "id": 152,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 51,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "la gestión de inventarios. Este resultado implica que la empresa logra vender o reponer rápidamente sus existencias, generando un flujo operativo ágil y evitando costos innecesarios. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ingresos de actividades ordinarias    | 620000 | nan | nan | nan | nan | Este ratio refleja la proporción de pasivos corrientes que pueden ser cubiertos de forma directa con caja y bancos (activos más líquidos). El valor de 0.68 muestra que el 68% de las deudas a corto plazo podrían ser canceladas con efectivo disponible. Aunque no es un nivel alarmante, pone de relieve la necesidad de reforzar la posición de caja o mejorar los flujos de efectivo para cubrir el 32% restante de las obligaciones corrientes que, en principio, no tendrían respaldo inmediato. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Costo de",
+    "id": 153,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 52,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Costo de Ventas     | -440000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) Bruta                                                                                                                                                                                 | 180000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 4. Rotación de Activos Totales = 0.87 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | GASTOS OPERACIONALES:  | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos de",
+    "id": 154,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 53,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos de Ventas y Distribuci¢n        | -3500 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La empresa está generando S/ 0.87 en ventas por cada sol invertido en activos totales. Aunque es un nivel moderado, no necesariamente bajo, refleja que aún existe margen para optimizar el uso de activos y lograr mayores ingresos con la infraestructura actual. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos de Administraci¢n               | -82000 | nan | nan | nan | nan | Desiciones Basadas en los Ratios de Liquidez y Gestion | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) de la baja en Activos Financieros me | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 155,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 54,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "rdida) de la baja en Activos Financieros me | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros Ingresos Operativos                | 23000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 5. Rotación de Cuentas por Cobrar = 1.82 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros Gastos Operativos                | -3500 | nan | nan | nan | nan | 1. Decisiones sobre la Gestión de Liquidez | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otras ganancias (perdidas) | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La rotación de cuentas por cobrar",
+    "id": 156,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 55,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | La rotación de cuentas por cobrar se mantiene en 1.82 veces al año, indicando un ciclo de cobranza de aproximadamente 200 días. Esta demora en la conversión de cuentas por cobrar en efectivo es una clara señal de alerta: la empresa debe fortalecer su política crediticia y de cobranza para proteger la liquidez y reducir la exposición a riesgo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) por actividades de operaci¢n                                                                                                                                                          | 114000 | nan | nan | nan | nan | ✅ Consolidar la liquidez inmediata | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | OTROS INGRESOS Y GASTOS | nan | nan | nan | nan | nan | Prueba ácida y",
+    "id": 157,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 56,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan\nnan | nan | OTROS INGRESOS Y GASTOS | nan | nan | nan | nan | nan | Prueba ácida y defensiva: Aunque los ratios de liquidez general (1.84) y la prueba ácida (1.04) reflejan un nivel adecuado, la prueba defensiva (0.68) evidencia que la cobertura de corto plazo depende significativamente de cuentas por cobrar y no solo de caja o bancos. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ingresos Financieros              | 3000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gastos Financieros                | -15000 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan",
+    "id": 158,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 57,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Diferencias de Cambio Neto | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Otros ingresos (gastos) de las subsidiarias,negocios co | nan | nan | nan | nan | nan | Se recomienda: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancias (Perdidas) que surgen de la Diferencia entre | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Diferencia entre el importe en libros de los activos di | nan | nan | nan | nan | nan | .- Reforzar la gestión de cobranzas para",
+    "id": 159,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 58,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n libros de los activos di | nan | nan | nan | nan | nan | .- Reforzar la gestión de cobranzas para convertir más rápidamente las cuentas por cobrar en efectivo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Resultado antes de Impuesto a las Ganancias | 102000 | nan | nan | nan | nan | .- Implementar políticas más conservadoras de disponibilidad de caja y bancos para afrontar obligaciones inmediatas. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Gasto por Impuesto a las Ganancias    | -30090 | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia(Perdida) Neta de Operaciones Continuadas | nan | nan",
+    "id": 160,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 59,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "n | nan | nan | nan | nan\nnan | nan | Ganancia(Perdida) Neta de Operaciones Continuadas | nan | nan | nan | nan | nan | 2. Decisiones sobre la Gestión de Cartera y Cuentas por Cobrar | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (perdida)  procedente de operaciones discontin | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | Ganancia (Perdida) Neta del Ejercicio | 71910 | nan | nan | nan | nan | ⚠️ Reducir el ciclo de cobranza | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan",
+    "id": 161,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 60,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | La rotación de cartera (2.82) y la rotación de cuentas por cobrar (1.82) muestran que los clientes tardan entre 130 y 200 días en promedio para pagar. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 162,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 61,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | Esto impacta directamente en la liquidez y la sostenibilidad del flujo operativo. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | Se debe: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan",
+    "id": 163,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 62,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Revisar y endurecer las políticas de crédito, ajustándolas a la capacidad de pago real de los clientes. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Establecer incentivos (descuentos por pronto pago) y penalidades claras (intereses o cargos por mora). | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Implementar controles más rigurosos y seguimiento constante a las cuentas por cobrar. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan |",
+    "id": 164,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 63,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | 3. Decisiones sobre la Gestión de Inventarios | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | ✅ Mantener la eficiencia operativa | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan |",
+    "id": 165,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 64,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | La rotación de inventarios (25.14 veces/año) y el ciclo de inventario (14.52 días) reflejan un nivel óptimo en la gestión de inventarios. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | Esto debe mantenerse mediante: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan |",
+    "id": 166,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 65,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "debe mantenerse mediante: | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Monitoreo constante de la demanda para evitar sobrestock o quiebres. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\nnan | nan | nan | nan | nan | nan | nan | nan | .- Evaluación periódica de proveedores para asegurar plazos de entrega oportunos y costos competitivos. | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\n\n... (mostrando 100 de 135",
+    "id": 167,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 66,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "| nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan\n\n... (mostrando 100 de 135 filas) ...",
+    "id": 168,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 67,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:35:58.266733",
+    "file_type": "structured_data"
+  },
+  {
+    "texto": "--- Página 1 ---\n \n \n \n “AÑO DE LA RECUPERACIÓN Y CONSOLIDACIÓN DE LA \nECONOMÍA PERUANA”  \n \n \n \nDocente: Moscoso Diaz  \n                Davie Orlando  \n                  \nCurso    :  Investigación Tecnológica  \n \nTema     : Problema de Investigación  \n \nCiclo      : VA  \n \nTurno     : Nocturno  \n \n \nIntegrantes  \n \n \n Alejos Taish Jazmin Araaf  \n Arellano Vicente Lizbeth  \n Calva Aguilar Kevin Moisés  \n Calero Olaya Juanita Irene  \n Camizan Alberca Leily Karina  \n Campos Lozano Ricardo Jesmit  \n Cardoza Viera Lorena Isabel  \n Carrillo Reyes Zamantha Saudith  \n Castillo Renteria Yahayda Nataly  \n Navarro Aquino Fiorella  \n \n \n \n \n \n \n\n--- Página 2 ---\n \nCASO  CUIDADO  Y ATENCIÓN  DE PACIENTES  CON  \nTRASTORNOS  DE LA CONDUCTA ALIMENTARIA.  \n \nEn el área de  consultorios  externos  de un hospital de nivel II-1 ubicado \nen una ciudad  costera  del norte del Perú, se ha incrementado, en los últimos \naños, la atención a adolescentes mujeres entre los 13 y 17 años con signos",
+    "id": 169,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 0,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "entado, en los últimos \naños, la atención a adolescentes mujeres entre los 13 y 17 años con signos \nclínicos y conductuales compatibles con trastornos de la conducta alimentaria \n(TCA), en especial anorexia nerviosa y bulimia. Sin embargo, muchos de \nestos casos no son detectados en la primera línea de atención, lo que retrasa \nsu abordaje integral.  \nUn caso  emblemático  fue el  de una  adolescente  de 15  años,  traída  por \nsu madre  a consulta  por presentar constantes mareos, debilidad, palidez y \npérdida de peso progresiva. Al ser evaluada inicialmente por enfermería para \nel control de signos vitales y peso, se registró un índice de masa corporal de \n16.5, pero no se realizó ninguna indagación sobre hábitos alimenticios, \ncomportamiento  nutricional o  estado  emocional.  El personal  técnico  de \nenfermería  simplemente la derivó a medicina general sin levantar ninguna \nalerta o sospecha clínica.  \nEste caso  pone  en evidencia  una problemática  frecuente:  la falta de",
+    "id": 170,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 1,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "rta o sospecha clínica.  \nEste caso  pone  en evidencia  una problemática  frecuente:  la falta de \nformación  y sensibilización del personal de enfermería técnica para detectar \nsignos precoces de trastornos alimentarios, especialmente en adolescentes. \nSe tiende a asociar el bajo peso únicamente con cuadros infecciosos o \nmetabólicos, y no con factores psicosociales o  conductuales. Esto genera \n\n--- Página 3 ---\n \nuna omisión crítica en la valoración integral, pues se limita la atención a \nparámetros físicos sin considerar dimensiones emocionales o conductuales.  \nAdemás,  se han observado  otras  manifestaciones preocupantes  desde  \nel rol de enfermería.  Por ejemplo, durante el control de peso y talla en \ncampañas escolares o centros de salud, algunos profesionales hacen \ncomentarios como “tienes que comer más o te vas a desaparecer” o “ya estás  \ndemasiado  flaca”, lo  que, aunque  parezca  inocente,  puede  reforzar  la culpa, \nel miedo  al juicio  corporal  y el rechazo  del",
+    "id": 171,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 2,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "e  parezca  inocente,  puede  reforzar  la culpa, \nel miedo  al juicio  corporal  y el rechazo  del propio  cuerpo  en pacientes  \nvulnerables.  No existe  una guía de atención empática ni un protocolo de \nevaluación emocional, por lo que estas adolescentes terminan sintiéndose \nincomprendidas  o estigmatizadas.  \nTambién  es frecuente  que, una vez diagnosticado  el TCA  por el médico  \ntratante  o el psicólogo,  el personal de enfermería técnica continúe actuando \ncomo si se tratara de una dolencia física aislada. Se limita a ejecutar \nfunciones como toma  de signos vitales, control de peso y administración de \nsueros, sin involucrarse en el proceso de acompañamiento emocional, \nobservación de señales de riesgo (como vómitos autoinducidos, ocultamiento \nde comida o ejercicio compulsivo) ni en la educación a la  familia sobre cómo \ncuidar adecuadamente a una persona con este tipo de trastorno.  \nOtro punto crítico es que no se promueve una cultura preventiva. El \npersonal técnico de",
+    "id": 172,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 3,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "astorno.  \nOtro punto crítico es que no se promueve una cultura preventiva. El \npersonal técnico de enfermería  no participa  activamente  en talleres  escolares  \nni en sesiones  educativas  comunitarias donde se aborden temas como la \n\n--- Página 4 ---\n \nimagen corporal saludable, la nutrición consciente, los riesgos del ayuno \nprolongado o la influencia de las redes sociales en los estándares de belleza. \nEn muchas zonas urbanas y rurales, la atención de enfermerí a sigue \ncentrada en lo biológico, sin incorporar el enfoque psicosocial que requieren \nlos TCA.  \nAdemás,  la familia  del paciente  suele  ser poco  informada,  y muchas \nveces  reproduce  discursos como “es solo una etapa”, “come porque te estás \nenfermando”, o “ya n o le hagas caso”, sin comprender que se trata de un \ntrastorno serio que puede comprometer órganos vitales y llevar incluso a la \nmuerte si no se trata oportunamente.  \n \n \n \n \n \n \n \n \n \n\n--- Página 5 ---\n \n \nTRASTORNOS  DE LA CONDUCTA  ALIMENTARIA  \nI.",
+    "id": 173,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 4,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "portunamente.  \n \n \n \n \n \n \n \n \n \n\n--- Página 5 ---\n \n \nTRASTORNOS  DE LA CONDUCTA  ALIMENTARIA  \nI.-DESCRIPCIÓN DEL PROBLEMA  \n \nI.1.1- IDENTIFICACIÓN  DEL PROBLEMA  \n \nMANIFESTACIONES  \n \nNo detección temprana en primera línea (enfermería no indaga hábitos \nalimenticios ni estado emocional, en parte por falta de directrices claras que una \nguía proporcionaría).  \nRegistro de IMC bajo (16.5) sin acción preventiva estandarizada mediante una \nguía.  \nComentarios inapropiados del personal (posiblemente por desconocimiento de \nprotocolos de comunicación empática que una guía podría incluir y estandarizar).  \nDerivación a medicina general sin alertas ni sosp echa clínica estructurada, lo \ncual una guía definiría.  \nEnfoque limitado a parámetros físicos (peso, signos vitales) ignorando lo \npsicosocial (una guía integral y su correcta implementación abordarían esto).  \nAusencia de guía para la correcta atención de pac ientes con Trastornos de la \nConducta Alimentaria.  (Manifestación clave)",
+    "id": 174,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 5,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "correcta atención de pac ientes con Trastornos de la \nConducta Alimentaria.  (Manifestación clave)  \nDiscursos minimizadores (reflejan falta de comprensión que la implementación \nde una guía podría ayudar a corregir).  \nNula participación del personal de salud en talleres escolares y com unitarios \nsobre imagen corporal o nutrición (la implementación de una guía podría \nestablecer esto como parte del rol).  \nPriorización de signos físicos sobre aspectos psicosociales (una guía \ndebidamente implementada equilibraría estos aspectos).  \n \nPROBLEMÁTIC A \n \nIncapacidad para garantizar una atención de calidad al paciente con Trastornos \nde la Conducta Alimentaria (TCA), principalmente por la falta de \nimplementación de directrices estandarizadas.  \n \n \n \n \n \n \n \n \n\n--- Página 6 ---\n \nI.1.2- IMPORTANCIA  DEL PROBLEMA  \n \nMANIFESTACIÓN  RELEVANTE  \nAusencia de guía para la correcta atención de pacientes con Trastornos de la  \nConducta Alimentaria.  \n \nELEMENTO  DE ACTIVIDAD  RELEVANTE",
+    "id": 175,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 6,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "de pacientes con Trastornos de la  \nConducta Alimentaria.  \n \nELEMENTO  DE ACTIVIDAD  RELEVANTE  \n \nProceso -Deficiente  \n \nI.1.3. - DEFINICIÓN  DEL PROBLEMA  \n \nMejorar la atención insuficiente y desactualizada de los Trastornos de la \nConducta Alimentaria (TCA) en el entorno clínico, mediante la implementación \nefectiva de una guía de práctica clínica actualizada que oriente al personal de \nenfermería.  \n \nI.1.4. - CAUSA  PRINCIPAL  \n \n Falta de especialistas (psicólogo, nutricion ista, médico).  \n Guía desactualizada o inexistente para la atención de TCA.  \n Falta de un proceso formal para la adopción y uso de directrices clínicas \nen TCA.  \n \nCausa  principal:  \n \nDebido a la ausencia de una guía actualizada y debidamente implementada \npara la correcta atención de pacientes con TCA, se implementará dicha guía, a \ntravés de su diseño, validación, difusión y la facilitación de su adopción por el \npersonal, para lograr mejorar la capacidad del personal técnico de enfermería \nen la",
+    "id": 176,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 7,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "opción por el \npersonal, para lograr mejorar la capacidad del personal técnico de enfermería \nen la detección temprana, el abordaje integral y el acompañamiento empático \nde adolescentes con TCA.  \n \nI.1.5. - PROPUESTA  DE SOLUCIÓN  \n \nImplementar una guía actualizada para el manejo integral de los TCA, \nasegurando su correcta adopción y aplicación por parte del personal de \nenfermería.  \n \n \n \n \n \n\n--- Página 7 ---\n \nI.2.- FORMULACION  DEL PROBLEMA  \n \nAtención insuficiente y desactualizada de los TCA en el entorno clínico, debido \nprincipalmente a la falta de implementación de una guía de práctica clínica \nactualizada que oriente la actuación del personal de enfermería.  \n \nI.3.- JUSTIFICACION  DEL PROBLEMA  \n \nEste problema es relevante, insuficiente y desactualizado porque los TCA \nrepresentan un riesgo significativo para la salud física y mental de los \npacientes. La falta de implementación de una guía de práctica clínica \nactualizada para el personal de enfermería limita la",
+    "id": 177,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 8,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "mplementación de una guía de práctica clínica \nactualizada para el personal de enfermería limita la detección precoz, el manejo \nadecuado y el acompañamiento terapéutico eficaz.  \nDado que el personal de enfermería tiene un rol fundamental en el cuidado \nintegral y continuo de estos pacien tes, es urgente dotarlos de una herramienta \ncomo una guía actualizada e implementarla de forma efectiva para que mejoren \nla calidad de atención.  \n \n Aporte  metodológico  \n \nLa investigación emplea un diseño mixto secuencial explicativo que integra \nanálisis cuant itativo de datos clínicos con exploración cualitativa de \npercepciones del personal sanitario, generando evidencia contextualizada para \ndesarrollar e implementar una guía de práctica clínica precisa que mejore la \ndetección y manejo de los TCA en servicios d e primer nivel, con posibilidad de \nreplicación en contextos similares.  \n \n Aporte  Social  \n \nLa investigación busca mejorar la calidad de vida de adolescentes con TCA al",
+    "id": 178,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 9,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": " Aporte  Social  \n \nLa investigación busca mejorar la calidad de vida de adolescentes con TCA al \noptimizar su detección temprana y tratamiento (a través de la implementación \nde una guía), r educir el estigma social mediante la estandarización de buenas \nprácticas contenidas en la guía, y empoderar a las familias con herramientas \npara un manejo adecuado (que la guía podría proporcionar), contribuyendo así \na la prevención de complicaciones grave s y promoviendo una atención más \nhumana e integral en el sistema de salud público.  \n \n \n \n \n \n \n \n \n\n--- Página 8 ---\n \n Novedad  Científica  \n \nEste estudio genera nuevo conocimiento al proponer el diseño y, \nfundamentalmente, la implementación efectiva de una guía de práctica clínica \nespecífica para TCA adaptada al contexto peruano para personal de \nenfermería de primer nivel. Se demostrará cómo esta intervención mejora \nsignificativamente las tasas de detección temprana (antes de 3 meses) y la \ncalidad del abordaje, superando el",
+    "id": 179,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 10,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "vamente las tasas de detección temprana (antes de 3 meses) y la \ncalidad del abordaje, superando el enfoque biomédico tradicional. Los \nresultados validarán un modelo de intervención escalable basado en la \nimplementación de una guía estandarizada que integra indicadores clínicos con \nevaluación psicosocial, ofreciendo una solución costo -efectiva para sistemas de \nsalud con recursos limitados.  \n \nI.4.- DELIMITACI ÓN DEL PROBLEMA  \n \n Espacial:  Consultorios externos de un hospital de nivel II -1 ubicado en \nuna ciudad costera del norte del Perú.  \n \n Temporal:  Situación observada en los últimos años hasta la actualidad.  \nUniverso:  Personal técnico de enfermería que atiende a adolescentes mujeres \nentre los 13 y 17 años con signos de TCA.  \n \n Temática:  Limitaciones en la detección temprana y atención integral de \npacientes con trastornos de la conducta alimentaria debido a la fa lta de \nimplementación de una guía de práctica clínica.  \n \nI.5.- INCONSISTENCIA  TEORICA  \n \nLa",
+    "id": 180,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 11,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "fa lta de \nimplementación de una guía de práctica clínica.  \n \nI.5.- INCONSISTENCIA  TEORICA  \n \nLa inconsistencia teórica radica en la brecha entre el rol ideal del personal de \nenfermería -como agente de cuidado integral que incorpora dimensiones \nfísicas, emocionales y sociales (principios que una guía actualizada e \nimplementada debería reflejar) - y su actuación real en contextos de TCA, \ndonde, ante la ausencia de directrices claras y efectivamente implementadas, \nsu intervención se limita mayormente a tarea s clínicas rutinarias. Esta práctica \nreduce el enfoque biopsicosocial propuesto por teorías de enfermería holísticas \ny evidencia una falta de aplicación de modelos de atención centrados en el \npaciente, como el de Jean Watson o el modelo de adaptación de Ro y, los \ncuales enfatizan la empatía, la observación integral y la intervención educativa \n(aspectos que la implementación de una guía debería operativizar).  \n \n \n \n \n \n\n--- Página 9 ---\n \nII.- OBJETIVO  GENERAL",
+    "id": 181,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 12,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "ación de una guía debería operativizar).  \n \n \n \n \n \n\n--- Página 9 ---\n \nII.- OBJETIVO  GENERAL  \n \nMejorar la capacidad del personal técnico de enfermería para detectar, ab ordar \ny acompañar integralmente a pacientes adolescentes con TCA, desde una \nperspectiva biopsicosocial y empática, mediante la implementación efectiva de \nuna guía de práctica clínica actualizada.  \n \n III.- OBJETIVOS  ESPECIFICOS  \n \n Caracterizar  los componentes,  contenido esencial y estructura de la \nguía de práctica clínica actualizada, enfocada en la detección temprana, \nel abordaje integral y el acompañamiento biopsicosocial y empático de \nadolescentes con TCA por el personal técnico de enfermería.  \n \n Determinar  los recursos, mecanismos de difusión, y estrategias de \nadopción necesarios para la implementación efectiva de la guía de \npráctica clínica actualizada en los consultorios externos por el personal \ntécnico de enfermería.  \n \n Elaborar  la versión final de la guía de  práctica clínica",
+    "id": 182,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 13,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "l personal \ntécnico de enfermería.  \n \n Elaborar  la versión final de la guía de  práctica clínica actualizada, \nintegrando los elementos caracterizados y considerando los requisitos \ndeterminados para su óptima implementación y uso por el personal \ntécnico de enfermería.  \n \n Validar  la aplicabilidad y el impacto preliminar de la guía de prá ctica \nclínica implementada mediante una prueba piloto con el personal técnico \nde enfermería, evaluando su utilidad en la mejora de la detección y \natención de adolescentes con TCA en el entorno clínico.  \n \nIV.-HIPOTESIS  DE INVESTIGACIÓN  \n \nLa implementación efectiva de una guía de práctica clínica actualizada \nmejorará significativamente la capacidad del personal técnico de enfermería \npara detectar, abordar y acompañar integralmente a pacientes adolescentes \ncon Trastornos de la Conducta Alimentaria (TCA), desd e una perspectiva \nbiopsicosocial y empática, en los consultorios externos de un hospital de nivel \nII-1 ubicado en una ciudad",
+    "id": 183,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 14,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "social y empática, en los consultorios externos de un hospital de nivel \nII-1 ubicado en una ciudad costera del norte del Perú.",
+    "id": 184,
+    "source_file": "trabajo-de-investigacion-tecnologica-1.pdf",
+    "chunk_index": 15,
+    "file_hash": "401dedd60e19abe3cf35af12e0b6bf61",
+    "upload_time": "2025-06-19T13:37:44.272575",
+    "file_type": "text"
+  },
+  {
+    "texto": "--- Hoja: CASO EXPLICADO ---\nUnnamed: 0\tUnnamed: 1\tCASO EXPLICADO\tUnnamed: 3\tUnnamed: 4\tUnnamed: 5\tUnnamed: 6\tUnnamed: 7\tUnnamed: 8\tUnnamed: 9\tUnnamed: 10\tUnnamed: 11\tUnnamed: 12\tUnnamed: 13\tUnnamed: 14\tUnnamed: 15\tUnnamed: 16\tUnnamed: 17\tUnnamed: 18\tUnnamed: 19\tUnnamed: 20\tUnnamed: 21\tUnnamed: 22\tUnnamed: 23\tUnnamed: 24\tUnnamed: 25\tUnnamed: 26\tUnnamed: 27\tUnnamed: 28\tUnnamed: 29\tUnnamed: 30\tUnnamed: 31\tUnnamed: 32\tUnnamed: 33\tUnnamed: 34\r\n\t\tLa empresa comercial Piura S.A.C., al cierre del año 2025, presenta los siguientes estados financieros y requiere el cálculo de los ratios de liquidez y de gestión que se detallan a continuación:\t\t\t\t\t\tFormulas de Ratios de Liquidez\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFórmulas de Ratios de Gestión\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tRatios de Liquidez\t\tRatios de Gestion\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Ratio de Liquidez General\t\t.- Rotación de Cartera\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Capital de Trabajo\t\t.- Rotación de Inventarios ( veces y",
+    "id": 185,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 0,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "artera\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Capital de Trabajo\t\t.- Rotación de Inventarios ( veces y dias)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Prueba Ácida\t\t.- Rotación de Activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Prueba Defensiva\t\t.- Rotación de Cuentas por Cobrar\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de cartera\t\t\t\t=\t180000.0\t\t=\t2.0\t\t\t\r\n\t\tDatos adicional: \t\t\t\t\t\tRatios de Liquidez General\t\t\t\t=\t400000.0\t\t=\t1.8561484918793503\t\t\t\t\t\t\t\t\t\t\t\t90000.0\t\t\t\t\t\t\r\n\t\t.- Al inicio del período, la entidad contaba con S/ 500,000.00 en cuentas por cobrar.\t\t\t\t\t\t\t\t\t\t\t215500.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- El inventario inicial fue de 60,000 unidades, mientras que el inventario final alcanzó las 30,000 unidades.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- La ventas al crédito equivalen al 30% del total de las ventas \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tComercial Piura S.A.C.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tESTADO DE SITUACIÓN FINANCIERA\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tal 31 de diciembre",
+    "id": 186,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 1,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ESTADO DE SITUACIÓN FINANCIERA\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tal 31 de diciembre del 2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Inventario (Veces)\t\t\t\t\t\t\t=\t430000.0\t\t=\t28.666666666666668\r\n\t(Expresado en soles)\t\t\t\t\t\t\tCapital de trabajo\t\t\t\t=\t400000.0\t\t-\t215500.0\t\t=\t184500.0\t\t\t\t\t\t\t\t\t\t\t\t15000.0\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tACTIVO\tS/.\tPASIVO\tS/.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo Corriente\t\tPasivo Corriente\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tEfectivo y equivalente de efectivo\t132500\tSobregiro Bancario\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tCuentas por cobrar comerciales, neto\t60000\tTrib. y aport. Sist. Pens. y salud por pagar\t53000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Inventario (Días)\t\t\t\t\t\t\t=\t365.0\t\t=\t12.732558139534882\r\n\t\tCuentas por cobrar al personal, a los accionistas (socios) y directores\t5000\tCuentas por pagar comerciales\t160000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t28.666666666666668\t\t\t\r\n\t\tMateriales Auxiliares, Suministros Y Repuestos\t6000\tOtras",
+    "id": 187,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 2,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "28.666666666666668\t\t\t\r\n\t\tMateriales Auxiliares, Suministros Y Repuestos\t6000\tOtras cuentas por pagar\t\t\t\tPrueba Acida\t\t\t\t=\t400000.0\t\t-\t190000.0\t\t=\t0.974477958236659\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo por impuesto a las ganancias\t\tRemuneraciones y participaciones por pagar\t2500\t\t\t\t\t\t\t\t215500.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tInventarios, neto\t190000\tPasivo por impuesto a las ganancias\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tServicios y otros contratados por anticipado\t6500\tPasivos por arrenadamiento - C\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tObligaciones Financieras - C\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tTotal activo corriente\t400000\tTotal pasivo corriente\t215500\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Activos Totales\t\t\t\t\t\t\t=\t600000.0\t\t=\t0.8810572687224669\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t681000.0\t\t\t\r\n\t\t\t\tPasivo no corriente\t\t\t\tPrueba Defensiva\t\t\t\t=\t132500.0\t\t=\t0.6148491879350348\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo no corriente\t\tObligaciones financieras - NC\t230000\t\t\t\t\t\t\t\t215500.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tPropiedad de",
+    "id": 188,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 3,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "orriente\t\tObligaciones financieras - NC\t230000\t\t\t\t\t\t\t\t215500.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tPropiedad de inversión\t\tPasivos por arrenadamiento - NC\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tCuentas por cobrar comerciales, neto\t260000\tProvisiones\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tPropiedad, planta y equipo (Neto)\t30000\tPasivo por impuestos diferidos\t\t\t\tInterpretacion: \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIntangibles, neto\t\tTotal pasivo no corriente\t230000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tDepreciación y Amortización Acumulados\t-9000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de cuentas por cobrar\t\t\t\t\t\t\t=\t600000.0\t\t=\t1.875\r\n\t\tActivo Diferido\t\tTotal pasivo\t445500\t\t\t1. Ratio de Liquidez General = 1.86\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t320000.0\t\t\t\r\n\t\tTotal activo no corriente\t281000\t\t\t\t\tEste ratio indica que por cada sol de deuda corriente, la empresa posee S/ 1.86 en activos corrientes. Es un nivel adecuado de liquidez y demuestra que la empresa tiene recursos suficientes para cubrir sus obligaciones a corto plazo. En términos generales,",
+    "id": 189,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 4,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "presa tiene recursos suficientes para cubrir sus obligaciones a corto plazo. En términos generales, un valor superior a 1 refleja una posición financiera solvente y con menor riesgo de iliquidez.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tPatrimonio\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tCapital social\t168172.5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInterpretacion: \t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tReserva legal\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tResultados Acumulados\t\t\t\t2. Capital de Trabajo = S/ 184,500.00\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tUtilidad del Ejercicio\t67327.5\t\t\tEl capital de trabajo positivo refleja la capacidad de la empresa para financiar sus operaciones y sostener sus necesidades operativas. Los S/184,500.00 demuestran que la entidad tiene un margen razonable para manejar sus actividades ordinarias y absorber eventuales fluctuaciones en efectivo o inventarios.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1. Rotación de Cartera = 2.00\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tTotal patrimonio\t235500\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEste ratio indica que las cuentas por cobrar se convierten en",
+    "id": 190,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 5,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "al patrimonio\t235500\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEste ratio indica que las cuentas por cobrar se convierten en efectivo aproximadamente dos veces durante el período. Es un nivel moderado de rotación que sugiere que la empresa tarda, en promedio, seis meses en cobrar sus cuentas por cobrar. Si bien refleja un ciclo de cobranza aceptable, existe espacio para mejorar la eficiencia en la gestión del crédito y acelerar los flujos de efectivo.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tTotal activo\t681000\tTotal pasivo y patrimonio\t681000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3. Prueba Ácida = 0.97\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t0\t\t\tLa prueba ácida excluye los inventarios de los activos corrientes, ya que estos pueden no ser rápidamente convertibles en efectivo. El valor de 0.97 señala que por cada sol de deuda corriente, la empresa dispone de S/ 0.97 en activos líquidos (sin considerar inventarios). Aunque ligeramente por debajo de 1, no representa un riesgo crítico inmediato; sin embargo,",
+    "id": 191,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 6,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "arios). Aunque ligeramente por debajo de 1, no representa un riesgo crítico inmediato; sin embargo, sugiere la necesidad de vigilar la gestión de inventarios y cuentas por cobrar para garantizar la liquidez a corto plazo.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2. Rotación de Inventario (veces) = 28.67\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa empresa renueva sus inventarios casi 29 veces en el año. Es un valor alto que evidencia un manejo eficiente del inventario, evitando acumulaciones excesivas y mejorando la rotación de los productos. Este resultado sugiere una adecuada administración de las existencias y un ciclo operativo ágil.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tComercial Piura S.A.C.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tESTADO DE RESULTADOS\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tal 31 de diciembre del 2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t(Expresado en soles)\t\t\t\t\t\t4. Prueba Defensiva = 0.61\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3. Rotación de Inventario (días) = 12.73 días\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos de actividades ordinarias   \t600000\t\t\t\t\tLa prueba defensiva",
+    "id": 192,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 7,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "as) = 12.73 días\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos de actividades ordinarias   \t600000\t\t\t\t\tLa prueba defensiva evalúa la cobertura inmediata de las obligaciones corrientes con los recursos más líquidos: caja y bancos. Un valor de 0.61 indica que el 61% de las deudas de corto plazo pueden ser cubiertas directamente con efectivo disponible. Aunque no es un valor crítico, alerta sobre la importancia de mejorar la gestión de caja y la eficiencia en la cobranza para asegurar la capacidad de pago inmediata.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa empresa tarda, en promedio, alrededor de 13 días en vender o renovar completamente su inventario. Este periodo corto reafirma la buena gestión del inventario y sugiere que la empresa mantiene un nivel óptimo de existencias, reduciendo costos de almacenamiento y obsolescencia.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tCosto de Ventas    \t-430000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) Bruta",
+    "id": 193,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 8,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "170000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGASTOS OPERACIONALES: \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos de Ventas y Distribuci¢n       \t-3000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4. Rotación de Activos Totales = 0.88\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos de Administraci¢n              \t-79000\t\t\t\t\tDesiciones Basadas en los Ratios de Liquidez y Gestion\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPor cada sol invertido en activos, la empresa genera S/ 0.88 en ventas. Este nivel de rotación es moderado y sugiere que la empresa aún puede optimizar el uso de sus activos fijos y corrientes para incrementar sus ingresos. Una mayor eficiencia en la utilización de activos podría incrementar este ratio y, por ende, la rentabilidad operativa.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) de la baja en Activos Financieros me\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros Ingresos Operativos",
+    "id": 194,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 9,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "n Activos Financieros me\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros Ingresos Operativos               \t21000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros Gastos Operativos               \t-3000\t\t\t\t\t1. Decisiones en materia de liquidez\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtras ganancias (perdidas)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t5. Rotación de Cuentas por Cobrar = 1.88\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) por actividades de operaci¢n                                                                                                                                                         \t106000\t\t\t\t\t✅ Mantener y consolidar la liquidez general\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEste ratio indica que la empresa convierte sus cuentas por cobrar en efectivo casi dos veces al año. Similar a la rotación de cartera, refleja un ciclo de cobranza algo lento. Implica que, en promedio, los clientes tardan unos seis meses en pagar, por lo que se recomienda fortalecer las políticas de crédito y cobranza para reducir la exposición al riesgo y mejorar la",
+    "id": 195,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 10,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "da fortalecer las políticas de crédito y cobranza para reducir la exposición al riesgo y mejorar la liquidez.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOTROS INGRESOS Y GASTOS\t\t\t\t\t\tEl ratio de liquidez general (1.86) es saludable, pero la empresa no debe confiarse. Es esencial mantener este nivel de solvencia, vigilando de cerca los pagos a proveedores y asegurándose de que los activos corrientes sigan superando a los pasivos corrientes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos Financieros             \t2500\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos Financieros               \t-13000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tDiferencias de Cambio Neto\t\t\t\t\t\t✅ Mejorar la prueba ácida y defensiva\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros ingresos (gastos) de las subsidiarias,negocios co\t\t\t\t\t\tLa prueba ácida (0.97) y la prueba defensiva (0.61) muestran que la liquidez inmediata no está del todo consolidada. Esto implica que, si surgieran necesidades imprevistas de efectivo, podría haber cierta presión. Para",
+    "id": 196,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 11,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "to implica que, si surgieran necesidades imprevistas de efectivo, podría haber cierta presión. Para mitigarlo:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancias (Perdidas) que surgen de la Diferencia entre\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tDiferencia entre el importe en libros de los activos di\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tResultado antes de Impuesto a las Ganancias\t95500\t\t\t\t\t.- Acelerar la cobranza de cuentas por cobrar.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGasto por Impuesto a las Ganancias   \t-28172.5\t\t\t\t\t.- Revisar la política de inventarios para identificar posibles reducciones de inventario o ventas rápidas de excedentes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia(Perdida) Neta de Operaciones Continuadas\t\t\t\t\t\t.- Analizar la disponibilidad de líneas de crédito o financiamiento de corto plazo para emergencias.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (perdida)  procedente de operaciones discontin\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) Neta del Ejercicio\t67327.5\t\t\t\t\t2. Decisiones en la",
+    "id": 197,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 12,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "Ganancia (Perdida) Neta del Ejercicio\t67327.5\t\t\t\t\t2. Decisiones en la gestión de cartera y cobranzas\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t✅ Revisar y fortalecer la política de crédito y cobranza\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de cartera (2.00) y la rotación de cuentas por cobrar (1.88) sugieren que los clientes tardan demasiado en pagar (aprox. 6 meses). Esto impacta directamente en la liquidez y eleva el riesgo de morosidad. Para corregirlo:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Establecer límites de crédito más estrictos para clientes de alto riesgo.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Ofrecer descuentos por pronto pago.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Implementar recordatorios automáticos y seguimiento constante a las cuentas pendientes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3. Decisiones",
+    "id": 198,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 13,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "as pendientes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3. Decisiones sobre inventarios\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t✅ Mantener la eficiencia en la gestión de inventarios\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de inventarios (28.67 veces, 12.73 días) es muy eficiente. Sin embargo, hay que asegurarse de que estos niveles no generen quiebres de stock o afecten el servicio al cliente. La empresa debe:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Mantener monitoreos continuos de la demanda.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Ajustar inventarios de acuerdo con la estacionalidad o cambios de mercado.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t4. Decisiones sobre la gestión de activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t✅ Mejorar la utilización de los activos",
+    "id": 199,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 14,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "✅ Mejorar la utilización de los activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de activos totales (0.88) señala que los activos no están generando el nivel óptimo de ventas. Para mejorar:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Revisar la productividad de los activos fijos y su posible renovación o reasignación.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Analizar oportunidades de crecimiento (nuevos productos o mercados) para incrementar las ventas sin necesidad de grandes inversiones adicionales.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Implementar indicadores clave de desempeño para asegurar que cada activo esté alineado con la generación de ingresos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t5. Visión estratégica general\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Equilibrio financiero y operativo",
+    "id": 200,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 15,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "🔷 Equilibrio financiero y operativo\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa empresa tiene una posición razonable de liquidez, pero con áreas claras de mejora en la gestión de cartera y activos. Las decisiones deben orientarse a:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Consolidar la liquidez inmediata (prueba ácida y defensiva).\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Fortalecer políticas de cobranza y seguimiento a clientes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Mantener la agilidad del inventario y asegurar que los activos se utilicen de forma eficiente.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Recomendación clave\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tRealizar un plan de acción a corto plazo (3 a 6 meses) centrado en:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Reforzar las cobranzas y la tesorería.",
+    "id": 201,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 16,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": ".- Reforzar las cobranzas y la tesorería.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Optimizar el uso de los activos fijos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Mantener el ritmo eficiente del inventario.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tA mediano plazo (1 año), establecer metas cuantitativas para cada ratio clave, de modo que la empresa pueda medir su progreso y corregir desvíos de forma oportuna.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\n--- Hoja: CASO PROPUESTO ---\nUnnamed: 0\tUnnamed: 1\tCASO EXPLICADO\tUnnamed: 3\tUnnamed: 4\tUnnamed: 5\tUnnamed: 6\tUnnamed: 7\tUnnamed: 8\tUnnamed: 9\tUnnamed: 10\tUnnamed: 11\tUnnamed: 12\tUnnamed: 13\tUnnamed: 14\tUnnamed: 15\tUnnamed: 16\tUnnamed: 17\tUnnamed: 18\tUnnamed: 19\tUnnamed: 20\tUnnamed: 21\tUnnamed: 22\tUnnamed: 23\tUnnamed: 24\tUnnamed: 25\tUnnamed: 26\tUnnamed: 27\tUnnamed: 28\tUnnamed: 29\tUnnamed: 30\tUnnamed: 31\tUnnamed: 32\tUnnamed: 33\tUnnamed: 34\r\n\t\tLa empresa Comercial Andina S.A.C., al cierre del año 2026,",
+    "id": 202,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 17,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "Unnamed: 32\tUnnamed: 33\tUnnamed: 34\r\n\t\tLa empresa Comercial Andina S.A.C., al cierre del año 2026, presenta los siguientes estados financieros y requiere el cálculo de los ratios de liquidez y de gestión que se detallan a continuación:\t\t\t\t\t\tFormulas de Ratios de Liquidez\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFórmulas de Ratios de Gestión\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tRatios de Liquidez\t\tRatios de Gestion\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Ratio de Liquidez General\t\t.- Rotación de Cartera\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Capital de Trabajo\t\t.- Rotación de Inventarios ( veces y dias)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Prueba Ácida\t\t.- Rotación de Activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- Prueba Defensiva\t\t.- Rotación de Cuentas por Cobrar\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de cartera\t\t\t\t=\t155000.0\t\t=\t2.8181818181818183\t\t\t\r\n\t\tDatos adicional: \t\t\t\t\t\tRatios de Liquidez General\t\t\t\t=\t415910.0\t\t=\t1.8403097345132744\t\t\t\t\t\t\t\t\t\t\t\t55000.0\t\t\t\t\t\t\r\n\t\t.- Al inicio del",
+    "id": 203,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 18,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "e Liquidez General\t\t\t\t=\t415910.0\t\t=\t1.8403097345132744\t\t\t\t\t\t\t\t\t\t\t\t55000.0\t\t\t\t\t\t\r\n\t\t.- Al inicio del período, la entidad contaba con S/ 450,000.00 en cuentas por cobrar.\t\t\t\t\t\t\t\t\t\t\t226000.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.- El inventario inicial fue de 70,000 unidades, mientras que el inventario final alcanzó las 35,000 unidades.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t.-  La ventas al credito equivalen al 25% del total de las ventas \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tComercial Andina S.A.C.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\tESTADO DE SITUACIÓN FINANCIERA\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Inventario (Veces)\t\t\t\t\t\t\t=\t440000.0\t\t=\t25.142857142857142\r\n\tal 31 de diciembre del 2026\t\t\t\t\t\t\tCapital de trabajo\t\t\t\t=\t415910.0\t\t-\t226000.0\t\t=\t189910.0\t\t\t\t\t\t\t\t\t\t\t\t17500.0\t\t\t\r\n\t(Expresado en soles)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tACTIVO\tS/.\tPASIVO\tS/.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo Corriente\t\tPasivo",
+    "id": 204,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 19,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ACTIVO\tS/.\tPASIVO\tS/.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo Corriente\t\tPasivo Corriente\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tEfectivo y equivalente de efectivo\t153910\tSobregiro Bancario\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Inventario (Días)\t\t\t\t\t\t\t=\t365.0\t\t=\t14.517045454545455\r\n\t\tCuentas por cobrar comerciales, neto\t65000\tTrib. y aport. Sist. Pens. y salud por pagar\t48000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t25.142857142857142\t\t\t\r\n\t\tCuentas por cobrar al personal, a los accionistas (socios) y directores\t4500\tCuentas por pagar comerciales\t175000\t\t\tPrueba Acida\t\t\t\t=\t415910.0\t\t-\t180000.0\t\t=\t1.0438495575221238\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tMateriales Auxiliares, Suministros Y Repuestos\t7000\tOtras cuentas por pagar\t\t\t\t\t\t\t\t\t226000.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo por impuesto a las ganancias\t\tRemuneraciones y participaciones por pagar\t3000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tInventarios, neto\t180000\tPasivo por impuesto a las ganancias\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tServicios y otros contratados por",
+    "id": 205,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 20,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ivo por impuesto a las ganancias\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tServicios y otros contratados por anticipado\t5500\tPasivos por arrenadamiento - C\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tObligaciones Financieras - C\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de Activos Totales\t\t\t\t\t\t\t=\t620000.0\t\t=\t0.8696749940385182\r\n\t\tTotal activo corriente\t415910\tTotal pasivo corriente\t226000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t712910.0\t\t\t\r\n\t\t\t\t\t\t\t\tPrueba Defensiva\t\t\t\t=\t153910.0\t\t=\t0.6810176991150443\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tPasivo no corriente\t\t\t\t\t\t\t\t\t226000.0\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tActivo no corriente\t\tObligaciones financieras - NC\t240000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tPropiedad de inversión\t\tPasivos por arrenadamiento - NC\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tCuentas por cobrar comerciales, neto\t275000\tProvisiones\t\t\t\t1. Ratio de Liquidez General = 1.84\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tPropiedad, planta y equipo (Neto)\t32000\tPasivo por impuestos diferidos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIntangibles, neto\t\tTotal pasivo no",
+    "id": 206,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 21,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "Pasivo por impuestos diferidos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIntangibles, neto\t\tTotal pasivo no corriente\t240000\t\t\tEste ratio indica que, por cada sol de deuda a corto plazo, la empresa dispone de S/ 1.84 en activos corrientes. Este nivel es sólido y refleja que la entidad mantiene un margen razonable de seguridad para enfrentar sus obligaciones corrientes. Sin embargo, no debe considerarse únicamente como indicador de fortaleza financiera, ya que también implica que existen activos corrientes que podrían no ser fácilmente convertibles en efectivo de inmediato.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRotacion de cuentas por cobrar\t\t\t\t\t\t\t=\t620000.0\t\t=\t1.8235294117647058\r\n\t\tDepreciación y Amortización Acumulados\t-10000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t340000.0\t\t\t\r\n\t\tActivo Diferido\t\tTotal pasivo\t466000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tTotal activo no corriente\t297000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tPatrimonio\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1. Rotación de Cartera = 2.82\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tCapital social\t175000\t\t\t2. Capital de",
+    "id": 207,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 22,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "1. Rotación de Cartera = 2.82\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tCapital social\t175000\t\t\t2. Capital de Trabajo = S/ 189,910.00\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tReserva legal\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa rotación de cartera de 2.82 veces por año indica que las cuentas por cobrar se convierten en efectivo aproximadamente cada 129 días (365/2.82). Aunque hay una ligera mejora en comparación con casos anteriores (mayor rotación), sigue representando un ciclo de cobro prolongado, que puede afectar la liquidez y la eficiencia operativa. Es esencial reforzar las políticas de cobranza y considerar incentivos para pagos anticipados, reduciendo el riesgo de morosidad.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tResultados Acumulados\t\t\t\tEl capital de trabajo es positivo y bastante robusto, evidenciando que la empresa tiene recursos suficientes para sostener sus operaciones y cubrir sus necesidades operativas cotidianas. Este margen de casi S/ 190 mil fortalece la capacidad de la empresa para afrontar gastos imprevistos o aprovechar",
+    "id": 208,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 23,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "casi S/ 190 mil fortalece la capacidad de la empresa para afrontar gastos imprevistos o aprovechar oportunidades de inversión operativa a corto plazo.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tUtilidad del Ejercicio\t71910\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\tTotal patrimonio\t246910\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tTotal activo\t712910\tTotal pasivo y patrimonio\t712910\t\t\t3. Prueba Ácida = 1.04\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2. Rotación de Inventario (veces) = 25.14\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t0\t\t\tEste ratio depura los inventarios, concentrándose en los activos más líquidos. Con un valor ligeramente superior a 1, la empresa está en condiciones de cubrir sus pasivos corrientes sin depender de la venta de inventarios. Esto indica que, aun si los inventarios no se pudieran convertir en efectivo inmediatamente, la empresa mantendría la capacidad de pago para sus compromisos inmediatos, reduciendo el riesgo de tensiones de liquidez.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa empresa renueva",
+    "id": 209,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 24,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "romisos inmediatos, reduciendo el riesgo de tensiones de liquidez.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa empresa renueva su inventario más de 25 veces al año, lo que evidencia un muy buen manejo operativo. Este alto nivel de rotación sugiere que no existen grandes acumulaciones de existencias, liberando capital y minimizando riesgos de obsolescencia.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tComercial Andina S.A.C.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tESTADO DE RESULTADOS\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3. Rotación de Inventario (días) = 14.52\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tal 31 de diciembre del 2026\t\t\t\t\t\t4. Prueba Defensiva = 0.68\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t(Expresado en soles)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEl ciclo promedio de inventario de 14.5 días ratifica la eficiencia en la gestión de inventarios. Este resultado implica que la empresa logra vender o reponer rápidamente sus existencias, generando un flujo operativo ágil y evitando costos innecesarios.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos de actividades ordinarias   \t620000\t\t\t\t\tEste ratio",
+    "id": 210,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 25,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ando costos innecesarios.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos de actividades ordinarias   \t620000\t\t\t\t\tEste ratio refleja la proporción de pasivos corrientes que pueden ser cubiertos de forma directa con caja y bancos (activos más líquidos). El valor de 0.68 muestra que el 68% de las deudas a corto plazo podrían ser canceladas con efectivo disponible. Aunque no es un nivel alarmante, pone de relieve la necesidad de reforzar la posición de caja o mejorar los flujos de efectivo para cubrir el 32% restante de las obligaciones corrientes que, en principio, no tendrían respaldo inmediato.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tCosto de Ventas    \t-440000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) Bruta                                                                                                                                                                                \t180000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4. Rotación de Activos Totales = 0.87\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGASTOS OPERACIONALES:",
+    "id": 211,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 26,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "180000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4. Rotación de Activos Totales = 0.87\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGASTOS OPERACIONALES: \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos de Ventas y Distribuci¢n       \t-3500\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa empresa está generando S/ 0.87 en ventas por cada sol invertido en activos totales. Aunque es un nivel moderado, no necesariamente bajo, refleja que aún existe margen para optimizar el uso de activos y lograr mayores ingresos con la infraestructura actual.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos de Administraci¢n              \t-82000\t\t\t\t\tDesiciones Basadas en los Ratios de Liquidez y Gestion\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) de la baja en Activos Financieros me\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros Ingresos Operativos               \t23000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t5. Rotación de Cuentas por Cobrar = 1.82\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros Gastos Operativos               \t-3500\t\t\t\t\t1. Decisiones sobre la Gestión de Liquidez\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtras ganancias (perdidas)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa rotación",
+    "id": 212,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 27,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "de Liquidez\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtras ganancias (perdidas)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa rotación de cuentas por cobrar se mantiene en 1.82 veces al año, indicando un ciclo de cobranza de aproximadamente 200 días. Esta demora en la conversión de cuentas por cobrar en efectivo es una clara señal de alerta: la empresa debe fortalecer su política crediticia y de cobranza para proteger la liquidez y reducir la exposición a riesgo.\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) por actividades de operaci¢n                                                                                                                                                         \t114000\t\t\t\t\t✅ Consolidar la liquidez inmediata\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOTROS INGRESOS Y GASTOS\t\t\t\t\t\tPrueba ácida y defensiva: Aunque los ratios de liquidez general (1.84) y la prueba ácida (1.04) reflejan un nivel adecuado, la prueba defensiva (0.68) evidencia que la cobertura de corto plazo depende significativamente de cuentas por cobrar y no",
+    "id": 213,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 28,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "68) evidencia que la cobertura de corto plazo depende significativamente de cuentas por cobrar y no solo de caja o bancos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tIngresos Financieros             \t3000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGastos Financieros               \t-15000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tDiferencias de Cambio Neto\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tOtros ingresos (gastos) de las subsidiarias,negocios co\t\t\t\t\t\tSe recomienda:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancias (Perdidas) que surgen de la Diferencia entre\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tDiferencia entre el importe en libros de los activos di\t\t\t\t\t\t.- Reforzar la gestión de cobranzas para convertir más rápidamente las cuentas por cobrar en efectivo.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tResultado antes de Impuesto a las Ganancias\t102000\t\t\t\t\t.- Implementar políticas más conservadoras de disponibilidad de caja y bancos para afrontar obligaciones inmediatas.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGasto por Impuesto a las Ganancias",
+    "id": 214,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 29,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "afrontar obligaciones inmediatas.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGasto por Impuesto a las Ganancias   \t-30090\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia(Perdida) Neta de Operaciones Continuadas\t\t\t\t\t\t2. Decisiones sobre la Gestión de Cartera y Cuentas por Cobrar\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (perdida)  procedente de operaciones discontin\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\tGanancia (Perdida) Neta del Ejercicio\t71910\t\t\t\t\t⚠️ Reducir el ciclo de cobranza\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de cartera (2.82) y la rotación de cuentas por cobrar (1.82) muestran que los clientes tardan entre 130 y 200 días en promedio para pagar.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tEsto impacta directamente en la liquidez y la sostenibilidad del flujo operativo.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tSe debe:",
+    "id": 215,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 30,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "Se debe:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Revisar y endurecer las políticas de crédito, ajustándolas a la capacidad de pago real de los clientes.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Establecer incentivos (descuentos por pronto pago) y penalidades claras (intereses o cargos por mora).\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Implementar controles más rigurosos y seguimiento constante a las cuentas por cobrar.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3. Decisiones sobre la Gestión de Inventarios\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t✅ Mantener la eficiencia operativa\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de inventarios (25.14 veces/año) y el ciclo de inventario (14.52 días) reflejan un nivel óptimo en la gestión de inventarios.",
+    "id": 216,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 31,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ario (14.52 días) reflejan un nivel óptimo en la gestión de inventarios.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tEsto debe mantenerse mediante:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Monitoreo constante de la demanda para evitar sobrestock o quiebres.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Evaluación periódica de proveedores para asegurar plazos de entrega oportunos y costos competitivos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t4. Decisiones sobre el Uso de los Activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t⚠️ Mejorar la rentabilidad de los activos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tLa rotación de activos totales (0.87) es aceptable, pero revela que la empresa podría optimizar la utilización de sus recursos para generar mayores ingresos.",
+    "id": 217,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 32,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ursos para generar mayores ingresos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tSe debe:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Identificar activos poco productivos o subutilizados y analizar su posible venta o reubicación estratégica.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t.- Explorar oportunidades de mercado o nuevos productos que incrementen las ventas sin requerir grandes inversiones adicionales.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t5. Estrategia Integral y Plan de Acción\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Fortalezas:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tBuena solvencia general (ratio de liquidez > 1.80).\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tExcelente gestión de inventarios.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Áreas de Mejora",
+    "id": 218,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 33,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "ventarios.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Áreas de Mejora Crítica:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tGestión de cuentas por cobrar: necesita políticas más dinámicas para disminuir los días promedio de cobro.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\tMejora en la eficiencia de activos: elevar la rotación de activos totales para maximizar ingresos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Plan de Acción a Corto Plazo (3-6 meses):\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t1️⃣ Revisión y ajuste de políticas de crédito y cobranza.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t2️⃣ Consolidación de la posición de caja para cubrir el déficit reflejado en la prueba defensiva.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3️⃣ Monitoreo y análisis de la rentabilidad de los activos.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t4️⃣ Continuar con el control riguroso de inventarios.",
+    "id": 219,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 34,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
+  },
+  {
+    "texto": "4️⃣ Continuar con el control riguroso de inventarios.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t🔷 Plan de Acción a Mediano Plazo (1 año):\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t1️⃣ Diseñar estrategias comerciales para incrementar ventas (expansión de mercado o diversificación de productos).\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t2️⃣ Evaluar la estructura de costos fijos y variables para maximizar el margen de contribución y la eficiencia global.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t3️⃣ Reforzar el monitoreo de indicadores financieros clave con reportes mensuales.",
+    "id": 220,
+    "source_file": "S15-s1-Decisiones basadas en Ratios.xlsx",
+    "chunk_index": 35,
+    "file_hash": "036c7e2f82e616a26ec98ac358e75838",
+    "upload_time": "2025-06-19T13:56:31.043580",
+    "file_type": "text"
   }
 ]
