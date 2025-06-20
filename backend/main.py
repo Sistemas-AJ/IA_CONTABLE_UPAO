@@ -516,7 +516,7 @@ async def get_memory_info():
 app.include_router(upload_router)
 app.include_router(feedback_router)
 app.include_router(system_router)
-app.include_router(user_router, prefix="/api/user-context")  
+app.include_router(user_router)  
 
 # Servir archivos estáticos si existen
 try:
