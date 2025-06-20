@@ -535,6 +535,15 @@ async def health_check():
         "api_key_configured": OPENAI_API_KEY != "dummy-key"
     }
 
+@app.get("/api/user-context/{session_id}")
+async def get_user_context(session_id: str):
+    """
+    Devuelve el contexto de usuario para la sesión dada.
+    Puedes personalizar la respuesta según tu lógica.
+    """
+    # Ejemplo: devolver un contexto vacío o simulado
+    return {"session_id": session_id, "context": {}}
+
 # Manejador de errores global
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
