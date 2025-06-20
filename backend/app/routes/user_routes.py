@@ -15,7 +15,7 @@ user_contexts = {}
 class UserContextUpdate(BaseModel):
     context: Dict[str, Any]
 
-@router.get("/user-context/{session_id}")
+@router.get("/user_context/{session_id}")
 async def get_user_context(session_id: str):
     """Obtiene el contexto del usuario"""
     try:
@@ -31,7 +31,7 @@ async def get_user_context(session_id: str):
             detail=f"Error obteniendo contexto: {str(e)}"
         )
 
-@router.post("/user-context/{session_id}")
+@router.post("/user_context/{session_id}")
 async def update_user_context(session_id: str, update: UserContextUpdate):
     """Actualiza el contexto del usuario"""
     try:
@@ -48,7 +48,7 @@ async def update_user_context(session_id: str, update: UserContextUpdate):
             detail=f"Error actualizando contexto: {str(e)}"
         )
 
-@router.delete("/user-context/{session_id}")
+@router.delete("/user_context/{session_id}")
 async def clear_user_context(session_id: str):
     """Limpia el contexto del usuario"""
     try:
@@ -70,7 +70,7 @@ async def clear_user_context(session_id: str):
             detail=f"Error limpiando contexto: {str(e)}"
         )
 
-@router.get("/user-contexts")
+@router.get("/user_contexts")
 async def get_all_contexts():
     """Obtiene todos los contextos (solo para desarrollo)"""
     return {
