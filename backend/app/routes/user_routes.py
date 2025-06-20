@@ -10,7 +10,7 @@ from pydantic import BaseModel
 router = APIRouter(prefix="/api", tags=["user"])
 
 # Almacén temporal de contextos (en producción usar base de datos)
-user-contexts = {}
+user_contexts = {}
 
 class UserContextUpdate(BaseModel):
     context: Dict[str, Any]

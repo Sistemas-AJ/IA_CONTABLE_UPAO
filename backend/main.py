@@ -517,32 +517,14 @@ app.include_router(chat_router)
 app.include_router(upload_router)
 app.include_router(feedback_router)
 app.include_router(system_router)
-app.include_router(user_router) 
+app.include_router(user_router, prefix="/api/user-context")  # Prefijo correcto
+
 # Servir archivos estáticos si existen
 try:
     if os.path.exists("static"):
         app.mount("/static", StaticFiles(directory="static"), name="static")
 except Exception as e:
     logger.warning(f"No se pudo montar directorio static: {e}")
-
-# Ruta para verificar el estado del sistema
-@app.get("/api/health")
-async def health_check():
-    return {
-        "status": "ok",
-        "timestamp": datetime.now().isoformat(),
-        "version": SYSTEM_VERSION,
-        "api_key_configured": OPENAI_API_KEY != "dummy-key"
-    }
-
-@app.get("/api/user-context/{session_id}")
-async def get_user_context(session_id: str):
-    """
-    Devuelve el contexto de usuario para la sesión dada.
-    Puedes personalizar la respuesta según tu lógica.
-    """
-    # Ejemplo: devolver un contexto vacío o simulado
-    return {"session_id": session_id, "context": {}}
 
 # Manejador de errores global
 @app.exception_handler(Exception)
