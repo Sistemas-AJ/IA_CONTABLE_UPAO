@@ -517,7 +517,7 @@ app.include_router(chat_router)
 app.include_router(upload_router)
 app.include_router(feedback_router)
 app.include_router(system_router)
-app.include_router(user_router, prefix="/api/user-context")  # Prefijo correcto
+app.include_router(user_router, prefix="/api/user-context")  
 
 # Servir archivos estáticos si existen
 try:

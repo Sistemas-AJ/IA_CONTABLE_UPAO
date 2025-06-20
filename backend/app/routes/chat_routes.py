@@ -184,3 +184,4 @@ async def get_chat_capabilities():
             }
         }
     }
+
