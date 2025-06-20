@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://104.243.40.27:8000",
+  "proxy": "http://104.243.40.27:3000",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "better-react-mathjax": "^2.3.0",
