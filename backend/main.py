@@ -513,7 +513,6 @@ async def get_memory_info():
         return {"error": "psutil no disponible"}
 
 # Incluir routers
-app.include_router(chat_router)
 app.include_router(upload_router)
 app.include_router(feedback_router)
 app.include_router(system_router)
