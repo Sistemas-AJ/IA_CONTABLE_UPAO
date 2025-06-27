@@ -46,7 +46,7 @@ cd IA_CONTABLE/backend/app
 
 # Instala dependencias
 pip install --upgrade pip
-pip install -r ../requirements.txt
+pip install -r ./requirements.txt
 
 # Ejecuta el servidor
 python run.py
@@ -121,5 +121,97 @@ npm start
 
 ---
 
-**¿Listo para automatizar tu contabilidad?**
-# IA_CONTABLE_UPAO
+## 🖥️ Despliegue en VPS (Producción)
+
+### 1. Requisitos VPS
+- Ubuntu 22.04+ (recomendado)
+- Acceso SSH y usuario con permisos sudo
+- Dominio/subdominio apuntando a la IP del VPS
+- **Python 3.11+** y **Node.js 20+** instalados
+- Nginx instalado (`sudo apt install nginx`)
+
+### 2. Clona el repositorio y sube los archivos
+```bash
+cd /home/ajsistemas/
+git clone <repo_url> iacontable
+cd iacontable
+```
+
+### 3. Variables de entorno (backend)
+Crea `/home/ajsistemas/iacontable/backend/.env`:
+```env
+OPENAI_API_KEY=sk-<tu_clave_openai>
+OPENAI_MODEL=gpt-4o
+HOST=0.0.0.0
+PORT=8000
+RELOAD=false
+ENVIRONMENT=production
+```
+
+### 4. Backend (FastAPI)
+```bash
+cd /home/ajsistemas/iacontable/backend
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Ejecuta en modo producción (usar systemd/pm2 para servicio)
+uvicorn main:app --host 0.0.0.0 --port 8000 --workers 2
+```
+
+### 5. Frontend (React)
+```bash
+cd /home/ajsistemas/iacontable/frontend
+npm install
+npm run build
+```
+Esto generará `/home/ajsistemas/iacontable/frontend/build/`.
+
+### 6. Configuración de Nginx
+Crea un archivo de configuración para tu sitio:
+```nginx
+server {
+    listen 80;
+    server_name iacontable.systempiura.com;
+
+    location /api/ {
+        proxy_pass http://127.0.0.1:8000/api/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    location /static/ {
+        alias /home/ajsistemas/iacontable/backend/static/;
+    }
+
+    location / {
+        root /home/ajsistemas/iacontable/frontend/build/;
+        try_files $uri /index.html;
+    }
+}
+```
+
+- cd `/home/ajsistemas/iacontable/`
+- Habilita el sitio y recarga Nginx:
+
+```bash
+sudo ln -s /etc/nginx/sites-available/iacontable /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+### 7. Acceso
+- Frontend: http://iacontable.systempiura.com
+- Backend API: http://iacontable.systempiura.com/api/
+- Documentación Swagger: http://iacontable.systempiura.com/docs
+
+---
+
+# ▶️ Uso local (desarrollo)
+
+Repite los pasos de **Instalación y puesta en marcha**, pero usa `localhost` como dominio.
+
+---

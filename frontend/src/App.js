@@ -10,7 +10,7 @@ import InputBox from './components/InputBox';
 import UploadSection from './components/UploadSection';
 import LoadingProgress from './components/LoadingProgress';
 
-const API_BASE = "http://104.243.40.27:8000"; // Cambia el puerto si tu backend usa otro
+const API_BASE = "http://localhost:8000"; // Cambia el puerto si tu backend usa otro
 
 function App() {
   const [sessionId] = useState(uuidv4());
@@ -141,7 +141,6 @@ function App() {
   // Función principal para enviar mensajes
   const sendMessage = async () => {
     if (!userMessage.trim()) return;
-no 
     // Agregar mensaje del usuario
     const newUserMessage = { role: 'user', content: userMessage };
     setMessages(m => [...m, newUserMessage]);
@@ -155,7 +154,7 @@ no
     simulateProgress();
 
     try {
-      const res = await fetch('/api/chat/message', {
+      const res = await fetch(`${API_BASE}/api/chat/message`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -165,14 +164,9 @@ no
           history: lastMessages // <-- Nuevo campo
         })
       });
-      
       const data = await res.json();
-      
-      // Completar progreso
       setLoadingProgress(100);
       setLoadingStage('finalizing');
-      
-      // Pausa para mostrar 100%
       setTimeout(() => {
         if (data.response) {
           setMessages(m => [...m, { role: 'assistant', content: data.response }]);
@@ -182,11 +176,8 @@ no
         setLoading(false);
         setLoadingProgress(0);
       }, 500);
-      
     } catch (error) {
       console.error('Error:', error);
-      
-      // Manejo de errores con progreso
       setLoadingProgress(100);
       setTimeout(() => {
         setMessages(m => [

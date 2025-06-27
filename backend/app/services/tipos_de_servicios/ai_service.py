@@ -27,10 +27,14 @@ class AIService:
                 {"role": "user", "content": query}
             ]
             
-            if context.get("local_documents"):
+            # Asegurar que local_documents es string antes de hacer slice
+            local_docs = context.get("local_documents")
+            if local_docs is not None:
+                if not isinstance(local_docs, str):
+                    local_docs = str(local_docs)
                 messages.insert(1, {
-                    "role": "system", 
-                    "content": f"Contexto relevante de documentos entrenados:\n{context['local_documents'][:2000]}"
+                    "role": "system",
+                    "content": f"Contexto relevante de documentos entrenados:\n{local_docs[:2000]}"
                 })
 
             if context.get("user_data"):
@@ -56,11 +60,16 @@ class AIService:
                 max_tokens=3000
             )
             
-            return response.choices[0].message.content
+            # DEBUG: Asegurarse de que el contenido es string
+            content = response.choices[0].message.content
+            logger.info(f"Respuesta OpenAI content type: {type(content)} | value: {content}")
+            if not isinstance(content, str):
+                content = str(content)
+            return content
             
         except Exception as e:
             logger.error(f"❌ Error en IA: {str(e)}")
-            return self._generate_error_response()
+            return self.generate_error_response(str(e))
     
     def _get_system_prompt(self, query_type: str) -> str:
         """Sistema prompt según tipo de consulta"""

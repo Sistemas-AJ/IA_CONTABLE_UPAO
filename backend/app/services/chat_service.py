@@ -61,7 +61,11 @@ class ChatService:
                 response = await ai_service.generate_ai_response(query, query_type, context)
 
             # LOG DE RESPUESTA
-            logger.info(f"📝 Respuesta generada | Session: {session_id} | Tipo: {query_type} | Respuesta: {response[:300]}...")
+            if isinstance(response, dict):
+                preview = str(response.get("response", str(response)))[:300]
+            else:
+                preview = str(response)[:300]
+            logger.info(f"📝 Respuesta generada | Session: {session_id} | Tipo: {query_type} | Respuesta: {preview}...")
 
             return {
                 "response": response,
