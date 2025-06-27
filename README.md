@@ -128,12 +128,12 @@ npm start
 - Acceso SSH y usuario con permisos sudo
 - Dominio/subdominio apuntando a la IP del VPS
 - **Python 3.11+** y **Node.js 20+** instalados
-- Nginx instalado (`sudo apt install nginx`)
+- Nginx instalado (`asegura`)
 
 ### 2. Clona el repositorio y sube los archivos
 ```bash
 cd /home/ajsistemas/
-git clone <repo_url> iacontable
+git clone https://github.com/Sistemas-AJ/IA_CONTABLE_UPAO.git iacontable
 cd iacontable
 ```
 
@@ -207,6 +207,42 @@ sudo systemctl reload nginx
 - Frontend: http://iacontable.systempiura.com
 - Backend API: http://iacontable.systempiura.com/api/
 - Documentación Swagger: http://iacontable.systempiura.com/docs
+
+---
+
+## ✅ Checklist comunicación Frontend ↔ Backend en VPS
+
+1. **CORS en FastAPI**
+   - Asegúrate de permitir el dominio de producción en el backend. En `main.py` o donde configuras FastAPI:
+     ```python
+     from fastapi.middleware.cors import CORSMiddleware
+     app.add_middleware(
+         CORSMiddleware,
+         allow_origins=["http://iacontable.systempiura.com"],  # o ["*"] para pruebas
+         allow_credentials=True,
+         allow_methods=["*"],
+         allow_headers=["*"],
+     )
+     ```
+   - Si usas varios entornos, puedes hacer que lea de una variable de entorno.
+
+2. **Proxy en el frontend**
+   - En `frontend/package.json` debe estar:
+     ```json
+     "proxy": "http://localhost:8000"
+     ```
+   - En producción, Nginx se encarga de redirigir `/api` al backend.
+
+3. **Prueba de comunicación**
+   - Sube el frontend (`npm run build`) y backend activos.
+   - Accede a `http://iacontable.systempiura.com` y envía un mensaje en el chat.
+   - Si el backend responde, la integración es correcta.
+   - Si hay error CORS, revisa el punto 1.
+   - Si hay error 502/404, revisa Nginx y que el backend esté corriendo.
+
+4. **Debug**
+   - Ver logs de Nginx: `sudo tail -f /var/log/nginx/error.log`
+   - Ver logs del backend: `tail -f /home/ajsistemas/iacontable/backend/app/data/logs/app.log`
 
 ---
 

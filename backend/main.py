@@ -7,6 +7,7 @@ from contextlib import asynccontextmanager
 from typing import Dict, Any, List
 from pathlib import Path
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
 
 # Agregar el directorio del proyecto al path
 project_root = Path(__file__).parent
@@ -189,7 +190,7 @@ app = FastAPI(
 # Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
+    allow_origins=["http://iacontable.systempiura.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
